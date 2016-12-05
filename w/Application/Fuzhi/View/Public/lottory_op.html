@@ -1,0 +1,53 @@
+<div class="web_listOP">
+    <ul id="web_listOP_ul">
+
+    </ul>
+</div>
+<script type="text/javascript" src="js/data/cfg/gameDate.js" ></script>
+<script type="text/javascript">
+    var gameNameTemp=beforPageJs.gameName||beforPageJs_gameName;
+
+    if(pathname.indexOf("/jiqiao/")>=0){
+        if (pathname.indexOf("/pk10/") >= 0){
+            gameNameTemp="pk10";
+        }else if (pathname.indexOf("/cqssc/") >= 0){
+            gameNameTemp="cqssc";
+        }else if (pathname.indexOf("/gdkl10/") >= 0){
+            gameNameTemp="gdkl10";
+        }else if (pathname.indexOf("/kl8/") >= 0){
+            gameNameTemp="kl8";
+        }else if (pathname.indexOf("/tjssc/") >= 0){
+            gameNameTemp="tjssc";
+        }else if (pathname.indexOf("/xync/") >= 0){
+            gameNameTemp="xync";
+        }else if (pathname.indexOf("/jsk3/") >= 0){
+            gameNameTemp="jsk3";
+        }else if (pathname.indexOf("/shssl/") >= 0){
+            gameNameTemp="shssl";
+        }else if (pathname.indexOf("/xjssc/") >= 0){
+            gameNameTemp="xjssc";
+        }else if (pathname.indexOf("/gd11x5/") >= 0){
+            gameNameTemp="gd11x5";
+        }else if (pathname.indexOf("/xyft/") >= 0){
+            gameNameTemp="xyft";
+        }else if (pathname.indexOf("/fc3d/") >= 0){
+            gameNameTemp="fc3d";
+        }else if (pathname.indexOf("/pl3/") >= 0){
+            gameNameTemp="pl3";
+        }
+    }
+    var list = webListOP[gameNameTemp];
+    if (list.length > 0) {
+        var html = '';
+        for (var i = 0, max = list.length; i < max; i++) {
+            var obj = list[i];
+            var href = obj.href, title = obj.title, aClass = obj.aClass, spanClass = obj.spanClass, text = obj.text;
+            html += '<li ' + (href.indexOf("/"+beforPageJs.pageName +".html") >= 0 ? 'class="hover">' : '>')
+            + '<a href="' + href + '" ' + (title ? 'title="'+title+'" ' : '')
+            + (aClass ? 'class="'+aClass+'" ' : '') + '>' + text + '</a>'
+            + (spanClass ? '<span class="'+spanClass+'"></span> ' : '') + '</li>';
+        }
+        $('#web_listOP_ul').html(html);
+    }
+
+</script >

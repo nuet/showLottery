@@ -1,0 +1,118 @@
+.lot-nums {
+    border: solid 1px #cccccc;
+    padding-top: 5px;
+    padding-left: 15px;
+    clear: both;
+    width: 338px;
+    background-color: #fff;
+    height: 32px;
+}
+
+.lot-nums span {
+	background: url("../../images/index-ico.png") -10px -414px no-repeat;
+	width: 28px;
+	height: 28px;
+	float: left;
+	margin-right: 6px;
+	margin-left: 6px;
+	font-family: Tahoma;
+	line-height: 28px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.nums {
+    width: 300px;
+    padding-left: 50px;
+}
+
+    .nums span {
+        float: left;
+        width: 10%;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 35px;
+        margin: 0px 9px;
+        font-family: Arial, '宋体', '黑体', Verdana, Geneva, sans-serif;
+    }
+
+.lot-table .no1 {
+    color: #FF0000;
+}
+
+.lot-table .no2 {
+    color: #5200FF;
+}
+
+.lot-table .no3 {
+    color: #760000;
+}
+
+.lot-table .no4 {
+    color: #2D92C2;
+}
+
+.lot-table .no5 {
+    color: #008000;
+}
+
+.lot-table .no6 {
+    color: #6F8A97;
+}
+
+.lot-award-warn .lot-name #currentAward {
+    margin-left: 50px;
+}
+
+.betgame-num div {
+    padding: 0px 6px;
+    float: left;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.lot-table .ptable {
+    width: 60%;
+    border: none;
+    margin: 0 auto;
+}
+
+    .lot-table .ptable .td1 {
+        border: none;
+        width: 40%;
+        text-align: center;
+    }
+
+    .lot-table .ptable .td2 {
+        border: none;
+        text-align: right;
+    }
+.lot-table .betgame-title {
+    text-align: left;
+    background-color: #F0F0F0;
+    padding-left: 13px;
+}
+
+.lot-table .betgame-td2 {
+    height: 21px;
+    background-color: #F0F0F0;
+    border-top: none;
+}
+
+.lot-table .betgame-td3 {
+    width: 174px;
+    height: 29px;
+    line-height: 24px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.lot-award .warnTime{ float:right;}
+.lot-award .currentAward{ width:512px;}
+.lot-award .currentAward .title{ height:24px; line-height:24px;}
+.lot-award .currentAward .period,.lot-award .currentAward .period-info{ line-height:24px;}
+.lot-nums{ width:500px; height:40px; padding:5px 0 5px 10px;}
+.lot-nums span{ width:40px; height:40px; background:url("../../images/index-ico.png") no-repeat -10px -453px !important; padding-right:0;padding-top:6px; margin-right:10px;}
+.lot-nums .red{ background:url("../../images/index-ico.png") no-repeat -60px -453px !important;}

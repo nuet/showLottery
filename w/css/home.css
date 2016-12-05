@@ -1,0 +1,199 @@
+@import "base.css";
+/*我的网址*/
+.home-position
+{
+    border-bottom:solid 1px #cccccc;
+    line-height:30px;
+    font-size:14px;
+    margin-bottom:20px;
+}
+.add-category
+{
+    display:block;
+    margin-bottom:20px;
+    background:url("../images/bookmark-addsite.png") #F3F3F3 15px 10px no-repeat;
+    padding-left:30px;
+    line-height:32px;
+    width:70px;
+    height:30px;
+    font-weight:bold;
+    border:solid 1px #cccccc;
+    color:#666666;
+}
+.add-category:hover
+{
+    border:solid 1px #2AA224;
+    background-color:#2AA224;
+    color:#fff;
+}
+.bookmark-content {
+    width: 100%;
+}
+.bookmark-content li {
+    border: solid 1px #cccccc;
+    margin-bottom: 20px;
+}
+.bookmark-content li .head {
+    height: 32px;
+    line-height: 30px;
+    width: 100%;
+    background-color:#F3F3F3;
+    border-bottom: solid 1px #cccccc;
+}
+.bookmark-content li .head .link
+{
+    float:left;
+    line-height:32px;
+}
+.bookmark-content li .name {
+    background: url("../images/bookmark-title.png") 8px 7px no-repeat;
+    height: 32px;
+    line-height:32px;
+    width: 100px;
+    margin-left: 7px;
+    padding-left: 27px;
+    float: left;
+    font-weight:bold;
+    color:#666666;
+}
+.bookmark-content li .add {
+    background: url("../images/bookmark-addsite.png") 10px 10px no-repeat;
+    height: 32px;
+    margin-left: 512px;
+    _margin-left: 500px;
+    line-height:32px;
+    padding-left: 25px;
+    float: left;
+}
+.bookmark-content li .cont {
+    padding: 30px;
+    background-color: #fff;
+}
+.bookmark-content li .modify {
+    background: url("../images/bookmark-edit.png") 10px 9px no-repeat;
+    height: 32px;
+    margin-left: 5px;
+    padding-left: 27px;
+    line-height: 32px;
+    float: left;
+}
+.bookmark-content li .delete {
+    background: url("../images/bookmark-delete.png") 10px 8px no-repeat;
+    height: 32px;
+    margin-left: 5px;
+    padding-left: 30px;
+    line-height: 32px;
+    float: left;
+}
+.bookmark-content li .cont a {
+    padding: 5px;
+    background: url("../images/ie-logo.png") 7px no-repeat;
+    float: left;
+    width: 197px;
+    height: 35px;
+    padding-left: 38px;
+    display: block;
+    border: solid 1px #fff;    
+    margin-bottom:10px;
+    text-align: left;
+}
+.bookmark-content li .cont a:hover {
+    border: solid 1px #cccccc;
+    color: #2aa224;
+    background: url("../images/ie-logo-cur.png") #F3F3F3 7px no-repeat;
+}
+.bookmark-content li .modify_url {
+    background: url("../images/bookmark-edit-site.png") no-repeat;
+    height: 10px;
+    width: 10px;
+    float: right;
+    display: none;
+}
+.bookmark-content li .delete_url {
+    margin-left: 10px;
+    margin-top:2px;
+    background: url("../images/bookmark-delete-site.png") no-repeat;
+    height: 9px;
+    width: 10px;
+    float: right;
+    display: none;
+}
+/*个人资料、安全中心*/
+.page-position
+{
+    margin-bottom:20px;
+    padding-left:30px;
+    margin-top:15px;
+    height:115px;
+    border-bottom:solid 1px #2A2A2A;
+}
+.page-position .infomation
+{
+    background: url("../images/home-infomation.png") no-repeat;
+    width: 80px;
+    height: 102px;
+    float: left;
+    display:block;
+}
+.page-position .infomation-cur
+{
+    background: url("../images/home-infomation-cur.png") no-repeat;
+    width: 80px;
+    height: 102px;
+    float: left;
+    display:block;
+}
+.page-position .safetycenter
+{
+    margin-left:30px;
+    background: url("../images/home-safetycenter.png") no-repeat;
+    width:79px;
+    height: 104px;
+    float: left;
+    display:block;
+}
+.page-position .safetycenter-cur
+{
+    margin-left:30px;
+    background: url("../images/home-safetycenter-cur.png") no-repeat;
+    width:79px;
+    height: 104px;
+    float: left;
+    display:block;
+}
+.mailcenter
+{
+    margin-left:30px;
+    background: url("../images/home-mailcenter.png") no-repeat;
+    width:79px;
+    height: 104px;
+    float: left;
+    display:block;
+}
+.page-position .mailcenter-cur
+{
+    margin-left:30px;
+    background: url("../images/home-mailcenter-cur.png") no-repeat;
+    width:79px;
+    height: 104px;
+    float: left;
+    display:block;
+}
+.page-position .phonecenter
+{
+    margin-left:30px;
+    background: url("../images/home-phonecenter.png") no-repeat;
+    width:79px;
+    height: 104px;
+    float: left;
+    display:block;
+}
+.page-position .phonecenter-cur
+{
+    margin-left:30px;
+    background: url("../images/home-phonecenter-cur.png") no-repeat;
+    width:79px;
+    height: 104px;
+    float: left;
+    display:block;
+}

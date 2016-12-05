@@ -1,0 +1,347 @@
+.lot-nums {
+    border: solid 1px #cccccc;
+    padding-top: 5px;
+    padding-left: 15px;
+    clear: both;
+    width: 338px;
+    background-color: #fff;
+    height: 32px;
+}
+
+.lot-nums span {
+    background: url("../../images/pk10-nums.gif") no-repeat;
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding-right: 8px;
+}
+
+.nums {
+    width: 389px;
+    padding-left: 7%;
+
+}
+
+.nums i {
+    background: url("../../images/pk10-nums.gif") no-repeat;
+    width: 25px;
+    height: 30px;
+    float: left;
+    padding-right: 4px;
+    padding-left: 5px;
+}
+
+
+.shade i {
+    background: url("../../images/pk10-nums-shade.gif") no-repeat;
+}
+
+
+.noshade {
+    background: url("../../images/pk10-nums.gif") no-repeat !important;
+}
+
+.nums .output-li {
+    background: url("../../images/pk10-nums.gif") no-repeat;
+    width: 35px;
+    height: 28px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 4px;
+    padding-right: 3px;
+}
+
+.lot-nums .no1,
+.lot-table .pk-no1 {
+    background-position: 0px -0px !important;
+}
+
+.lot-nums .no2,
+.lot-table .pk-no2 {
+    background-position: -44px -0px !important;
+}
+
+.lot-nums .no3,
+.lot-table .pk-no3 {
+    background-position: -87px -0px !important;
+}
+
+.lot-nums .no4,
+.lot-table .pk-no4 {
+    background-position: -130px -0px !important;
+}
+
+.lot-nums .no5,
+.lot-table .pk-no5 {
+    background-position: -174px -0px !important;
+}
+
+.lot-nums .no6,
+.lot-table .pk-no6 {
+    background-position: -218px -0px !important;
+}
+
+.lot-nums .no7,
+.lot-table .pk-no7 {
+    background-position: -261px -0px !important;
+}
+
+.lot-nums .no8,
+.lot-table .pk-no8 {
+    background-position: -305px -0px !important;
+}
+
+.lot-nums .no9,
+.lot-table .pk-no9 {
+    background-position: -350px -0px !important;
+}
+
+.lot-nums .no10,
+.lot-table .pk-no10 {
+    background-position: -395px -0px !important;
+}
+
+.lot-table .ptable {
+    width: 80%;
+    border: none;
+    margin: 0 auto;
+}
+
+    .lot-table .ptable .td1 {
+        border: none;
+        width: 40%;
+        text-align: center;
+    }
+
+    .lot-table .ptable .td2 {
+        border: none;
+        text-align: right;
+    }
+
+.zst-type {
+    margin: 10px 0px;
+    height: 30px;
+}
+
+    .zst-type a {
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        border: solid 1px #333333;
+        display: block;
+        float: left;
+        font-weight: bold;
+    }
+
+    .zst-type .cur {
+        color: #fff;
+        background-color: #333333;
+    }
+
+.pk10_newIcon {
+    position: relative;
+}
+
+.pk10_wen_newIcon {
+    width: 20px;
+    height: 11px;
+    background: url("../../images/stat/newicon01.gif") no-repeat;
+    font-size: 0;
+    position: absolute;
+    right: 8px;
+    top: -3px;
+}
+
+/*清除 还原按钮样式*/
+.bg_u4 {
+    color: #1c4070;
+    display: block;
+    width: 49px;
+    height: 26px;
+    line-height: 26px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top: -8px;
+}
+/*参数设置*/
+#colorSet {
+    float: left;
+    padding: 0 0 10px 0;
+}
+
+    #colorSet .param {
+        float: left;
+        display: block;
+        padding: 3px 10px 0 0;
+       
+    }
+
+    #colorSet .sparam1 {
+        float: left;
+        display: block;
+        padding: 2px 3px 0 0;
+       
+    }
+    #colorSet .sparam2 {
+        width: 15px;
+        float:left;
+        display:block;
+        line-height: 18px;
+        padding: 2px 0 0 3px;
+        margin-top:3px\9;
+    }
+   
+    #colorSet .span {
+        float: left;
+        display: block;
+        height: 23px;
+        /*background: #eee;
+        border: 1px solid #b6b6b6;*/
+        cursor: pointer;
+        padding: 0 2px 0 2px;
+        padding:0px\9;
+        margin-left:2px;
+        margin-top:2px\9;
+    }
+     #colorSet .spanAdd {
+        float: left;
+        display: block;
+        /* width: 40px; */
+        height: 23px;
+        /*background: #eee;
+        border: 1px solid #b6b6b6;*/
+        cursor: pointer;
+        padding: 0 5px 0 5px;
+        margin-left:1px;
+        margin-top:3px;
+        margin-top:5px\9;
+    }
+    #colorSet .color_red {
+        background-color: red;
+        width: 7px;
+        height: 13px;
+        display: block;
+        float: left;
+        margin-top: 5px;
+        margin-top: 6px\9;
+        font-size:0px;
+    }
+
+    #colorSet .color_blue {
+        background-color: blue;
+        width: 7px;
+        height: 13px;
+        display: block;
+        float: left;
+        margin-top: 5px;
+        margin-top: 6px\9;
+        font-size:0px;
+    }
+
+    #colorSet .color_green {
+        background-color: green;
+        width: 7px;
+        height: 13px;
+        display: block;
+        float: left;
+        margin-top: 5px;
+        margin-top: 6px\9;
+        font-size:0px;
+    }
+
+.lot-table .span {
+    color: #1d1d1d;
+}
+
+.lot-table .red {
+    color: red;
+    font-weight: bold;
+}
+
+.lot-table .blue {
+    color: blue;
+    font-weight: bold;
+}
+
+.lot-table .green {
+    color: green;
+    font-weight: bold;
+}
+
+/*使用说明(冠亚和路珠 单独出来部分样式)*/
+.userintro {
+    width: 100%;
+    float: left;
+    clear: left;
+}
+
+    .userintro .span1 {
+        float: right;
+        margin-right: 80px;
+        padding: 0 0 10px 0;
+    }
+
+    .userintro .span2 {
+        float: left;
+        padding: 3px 0 0 0;
+    }
+
+    .userintro .span3 {
+        float: left;
+        margin: 0 0 0 10px;
+    }
+
+
+.shade .numsRed {
+        background: url("../../images/pk10-nums-red.gif") no-repeat;
+    }
+    
+.lot-award .warnTime{ float:right;}
+.lot-award .currentAward{ width:512px;}
+.lot-award .currentAward .title{ height:24px; line-height:24px;}
+.lot-award .currentAward .period,.lot-award .currentAward .period-info{ line-height:24px;}
+.lot-nums{ width:500px; height:40px; padding:5px 0 5px 10px;margin-left: 30px;}
+.lot-nums span{ width:40px; height:40px; background:url("../../images/num.png") no-repeat 0 0; padding-right:0; margin-right:10px;}
+
+        
+        
+.nums .pk-dx-da {
+    background: url("../../images/pk10-dxds.png") no-repeat 0 -32px!important;
+    width: 25px;
+    height: 30px;
+    float: left;
+    padding-right: 4px;
+    padding-left: 5px;
+}
+.nums .pk-dx-xiao {
+    background: url("../../images/pk10-dxds.png") no-repeat -32px -32px!important;
+    width: 25px;
+    height: 30px;
+    float: left;
+    padding-right: 4px;
+    padding-left: 5px;
+}  
+.nums .pk-ds-dang {
+    background: url("../../images/pk10-dxds.png") no-repeat 0 0!important;
+    width: 25px;
+    height: 30px;
+    float: left;
+    padding-right: 4px;
+    padding-left: 5px;
+}
+.nums .pk-ds-shuang {
+    background: url("../../images/pk10-dxds.png") no-repeat -32px 0!important;
+    width: 25px;
+    height: 30px;
+    float: left;
+    padding-right: 4px;
+    padding-left: 5px;
+}       
+        
+        
+        
+        
+        
+        
+        

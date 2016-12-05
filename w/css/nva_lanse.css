@@ -1,0 +1,84 @@
+.wrap {
+	width:1000px;
+	margin:0px auto;
+	display:block;
+	overflow:hidden;
+}
+ul {
+	margin:0px;
+	padding:0px
+}
+li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	color:#666;
+	-webkit-transition:color 0.3s linear;
+	-moz-transition:color 0.3s linear;
+	-o-transition:color 0.3s linear;
+	transition:color 0.3s linear;
+}
+a:hover {
+	color: #FF0000;
+}
+
+.nav{
+
+	background:#0371BC;
+
+}
+.nav ul .home{background:#0378C7 url(../images/homebg.png) no-repeat center right 7px; }
+.header_color a span.c2 {
+	background-position:-10px -18px;
+}
+.header_color a span.c0 {
+	background-position:0px 0px;
+}
+.tab_menu {background:#0371BC}
+.tab_menu li.current{background:#0378C7;}
+.nav {
+	height:42px;
+	line-height:42px;
+	clear: both;
+	overflow:hidden;
+	font-size:15px;
+	color:#fff;
+}
+.nav ul li {
+	float:left;
+	width:109px;
+}
+.nav ul li a {
+	display:block;
+	text-align:center;
+	font-size:15px;
+	color:#fff;
+}
+.nav ul li a:hover {
+	color: #FFFFCC
+}
+.nav ul .home {
+	width:113px;
+	letter-spacing:1px;
+	text-align: left;
+	padding-left:13px;
+
+}
+.nav ul .home a{ text-align:left}
+.hot-icon {
+	width:20px;
+	height:14px;
+	background:url(../images/hot_new.gif) no-repeat;
+	position:absolute;
+	overflow:hidden;
+	z-index:10
+}
+.new-icon {
+	width:22px;
+	height:14px;
+	background:url(../images/new.gif) no-repeat;
+	position:absolute;
+	overflow:hidden;
+	z-index:10
+}

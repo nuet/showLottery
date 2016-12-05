@@ -1,0 +1,635 @@
+<extend name="Base/common"/>
+
+<block name="style">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/lot/{$lottory}.css" rel="stylesheet" />
+</block>
+
+<block name="body">
+ 
+<!--body-content-->
+<div class="body-content">
+	<!-- 彩票大厅 头部 -->
+<include file="Public/top_ad"/>
+
+<include file="Public/lottory_latest"/>
+
+<div class="lot-wrap">
+		<include file="Public/lottory_op"/>
+
+<div class="clear"></div>
+		<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="980" height="630" id="pk10" align="middle">
+				<param name="movie" value="Public/swf/{$lottory}_shipin/Preloader.swf"  />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#000000" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="Data/pk10_shipin/Preloader.swf"  width="980" height="630">
+					<param name="movie" value="Data/pk10_shipin/Preloader.swf"  />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#000000" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+					<param name="wmode" value="transparent">
+					<embed src="Data/pk10_shipin/Preloader.swf"  quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="630"  wmode="transparent"></embed>
+				<!--<![endif]-->
+                    <a href="http://www.adobe.com/go/getflash">
+                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获得 Adobe Flash Player" />
+                    </a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="clear"></div>
+
+<!--body-content-->
+<div class="body-content">
+	<!-- 彩票大厅 头部 -->
+<include file="Public/top_ad"/>
+
+<include file="Public/lottory_latest"/>
+
+<div class="lot-wrap">
+		<include file="Public/lottory_op"/>
+
+<div class="clear"></div>
+	<input type="hidden" id="callFun" value="callFun" time="1000"/>
+	<div style="margin-bottom:20px;" id="lot-wrap">
+		<div class="lot-search">
+			<div class="car-num">
+				<ul style="margin-bottom: 10px;" class="lot-number-omit">
+					<li style="padding-bottom: 2px;" class="ball">
+						<ul style="width: 750px; _width: 740px; float: left; margin-left: 10px;">
+							<li id="ballstat-switch">
+								<b style="margin: 8px 0 0 0;" class="checkbox checked"></b>
+								<span class="ckb-txt">
+									<label style="cursor: pointer">今日双面统计</label>
+								</span>
+							</li>
+							<li id="changlong-switch">
+								<b style="margin: 8px 0 0 0;" class="checkbox checked"></b>
+								<span class="ckb-txt">
+									<label style="cursor: pointer">长龙提醒</label></span></li>
+							<li id="car-switch">
+								<b style="margin: 8px 0 0 0;" class="checkbox checked"></b>
+								<span class="ckb-txt">
+									<label style="cursor: pointer">查看车号分布</label>
+								</span>
+							</li>
+	
+						</ul>
+						<script type="text/javascript" src="js/My97DatePicker/WdatePicker.js" ></script>
+						<ul style="float: right; width: 220px; text-align: right;">
+							<li>
+								<span style="display: block; float: left;">
+									<label style="margin: 0px;">选择日期：</label></span>
+								<span style="display: block; float: left;">
+									<input name="dateData" type="text" id="dateData" onClick="WdatePicker();" readonly="readonly" style="height:18px; margin:0px;"></span>
+								<span style="padding-left: 10px;"><a style="margin: 0px;" href="javascript:Search();">查询</a></span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div style="clear:both" id="ballstat_remind" class="dataTableKuang">
+			<div id="ball_stat_list-html"></div> 
+			<script id="ball_stat_list-tmpl" type="text/template">
+				<table width="100%" cellspacing="1" cellpadding="0" border="0">
+			        <tbody><tr class="huisekColor">
+			            <td class="firstTd" colspan="10"><span>今日双面统计</span></td>
+			        </tr>
+			        <tr class="huisekColor2">
+			            <td>
+			                <div class="web_ballPaiMing">冠&#12288;军</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+			            </td>
+			            <td>
+			                <div class="web_ballPaiMing">亚&#12288;军</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+			            </td>
+			            <td>
+			                <div class="web_ballPaiMing">第三名</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+			            </td>
+			            <td>
+			                <div class="web_ballPaiMing">第四名</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+			            </td>
+			            <td>
+			                <div class="web_ballPaiMing">第五名</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+			            </td>
+			            <td>
+			                <div class="web_ballPaiMing">第六名</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+			            </td>
+			            <td>
+			                <div class="web_ballPaiMing">第七名</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+			            </td>
+			            <td>
+			                <div class="web_ballPaiMing">第八名</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+			            </td>
+			            <td>
+			                <div class="web_ballPaiMing">第九名</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+		
+			            </td>
+			            <td>
+			                <div class="web_ballPaiMing">第十名</div>
+			                <div class="web_bigAndSmall">
+			                    <ul>
+			                        <li>大</li>
+			                        <li>小</li>
+			                        <li>单</li>
+			                        <li>双</li>
+			                    </ul>
+			                </div>
+			            </td>
+			        </tr>
+			        {{ 
+				    	var rowsLen=it.length;
+				    	var recArray=new Array();
+			            function addRecArray(recTermNum){
+			              var isExist=false;
+			              for(var i=0;i<recArray.length;i++){
+			                if(recArray[i]==recTermNum){
+			                  isExist=true;
+			                  break;
+			                }
+			              }
+			              if (!isExist) {
+			                recArray.push(recTermNum);
+			              }
+			              return isExist;
+			            } 
+				    	for(var i=0;i<rowsLen;i++){ /*循环开始A*/
+				    		var rd=it[i];
+				    		var dataType=rd.dataType;
+				    		var ld=rd.lotteryDate;
+				    		if(!addRecArray(ld)){
+				     }}
+			        <tr id="todayDoubleData" class="huisekColor">
+				        <td>
+				         <div class="web_bigAndSmall2">
+				          <ul>
+				           <li>{{=getVal(it,ld,1,6,2)}}</li>
+				           <li>{{=getVal(it,ld,1,6,1)}}</li>
+				           <li>{{=getVal(it,ld,1,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,1,5,2)}}</li>
+				          </ul>
+				         </div></td>
+				        <td>
+				         <div class="web_bigAndSmall2">
+				         <ul>
+				           <li>{{=getVal(it,ld,2,6,2)}}</li>
+				           <li>{{=getVal(it,ld,2,6,1)}}</li>
+				           <li>{{=getVal(it,ld,2,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,2,5,2)}}</li>
+				          </ul>
+				         </div></td>
+				        <td>
+				         <div class="web_bigAndSmall2">
+				          <ul>
+				           <li>{{=getVal(it,ld,3,6,2)}}</li>
+				           <li>{{=getVal(it,ld,3,6,1)}}</li>
+				           <li>{{=getVal(it,ld,3,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,3,5,2)}}</li>
+				          </ul>
+				         </div></td>
+				        <td>
+				         <div class="web_bigAndSmall2">
+				          <ul>
+				           <li>{{=getVal(it,ld,4,6,2)}}</li>
+				           <li>{{=getVal(it,ld,4,6,1)}}</li>
+				           <li>{{=getVal(it,ld,4,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,4,5,2)}}</li>
+				          </ul>
+				         </div></td>
+				        <td>
+				         <div class="web_bigAndSmall2">
+				          <ul>
+				           <li>{{=getVal(it,ld,5,6,2)}}</li>
+				           <li>{{=getVal(it,ld,5,6,1)}}</li>
+				           <li>{{=getVal(it,ld,5,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,5,5,2)}}</li>
+				          </ul>
+				         </div></td>
+				        <td>
+				         <div class="web_bigAndSmall2">
+				         <ul>
+				           <li>{{=getVal(it,ld,6,6,2)}}</li>
+				           <li>{{=getVal(it,ld,6,6,1)}}</li>
+				           <li>{{=getVal(it,ld,6,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,1,6,2)}}</li>
+				          </ul>
+				         </div></td>
+				        <td>
+				         <div class="web_bigAndSmall2">
+				         <ul>
+				           <li>{{=getVal(it,ld,7,6,2)}}</li>
+				           <li>{{=getVal(it,ld,7,6,1)}}</li>
+				           <li>{{=getVal(it,ld,7,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,7,5,2)}}</li>
+				          </ul>
+				         </div></td>
+				        <td>
+				         <div class="web_bigAndSmall2">
+				         <ul>
+				           <li>{{=getVal(it,ld,8,6,2)}}</li>
+				           <li>{{=getVal(it,ld,8,6,1)}}</li>
+				           <li>{{=getVal(it,ld,8,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,8,5,2)}}</li>
+				          </ul>
+				         </div></td>
+				        <td>
+				         <div class="web_bigAndSmall2">
+				         <ul>
+				           <li>{{=getVal(it,ld,9,6,2)}}</li>
+				           <li>{{=getVal(it,ld,9,6,1)}}</li>
+				           <li>{{=getVal(it,ld,9,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,9,5,2)}}</li>
+				          </ul>
+				         </div></td>
+				        <td>
+				         <div class="web_bigAndSmall2">
+				         <ul>
+				           <li>{{=getVal(it,ld,10,6,2)}}</li>
+				           <li>{{=getVal(it,ld,10,6,1)}}</li>
+				           <li>{{=getVal(it,ld,10,5,1)}}</li>
+				           <li style="border:none;">{{=getVal(it,ld,10,5,2)}}</li>
+				          </ul>
+				         </div></td>
+				       </tr> 
+			      {{ 
+				      }
+			     	}
+				  }}
+			    </tbody>
+		    </table>
+		    </script>
+		</div>
+		<div id="changlong_warn" class="kaijiang_tiptool">
+			<div class="tiptool_head">
+				<ul>
+					<li>长龙连开提醒</li>
+				</ul>
+			</div>
+			<div id="changlong_info" class="tiptool_info">
+				 <div id="cl_list-html" style="float: left;"></div> 
+			     	 <script id="cl_list-tmpl" type="text/template">
+				     	 {{
+				            var rowsLen=it.length;
+				            for(var i=0;i<rowsLen;i++){ /*循环开始A*/
+				              var rd=it[i];
+							  var tRank="";
+							  if(rd.rank==1){
+								  tRank="冠";
+							  }else if(rd.rank==2){
+								  tRank="亚";
+							  }else if(rd.rank==3){
+								  tRank="三";
+							  }else if(rd.rank==4){
+								  tRank="四";
+							  }else if(rd.rank==5){
+								  tRank="五";
+							  }else if(rd.rank==6){
+								  tRank="六";
+							  }else if(rd.rank==7){
+								  tRank="七";
+							  }else if(rd.rank==8){
+								  tRank="八";
+							  }else if(rd.rank==9){
+								  tRank="九";
+							  }else if(rd.rank==10){
+								  tRank="十";
+							  }
+							  var tNum=rd.num;
+							  var tType="";
+							  if(rd.dataType==2){
+								  if(tNum%2==0){
+									  tType="虎";
+								  }else{
+									  tType="龙";
+								  }
+							  }else if(rd.dataType==5){
+								  if(tNum==1){
+									  tType="单";
+								  }else{
+									  tType="双";
+								  }
+							  }else if(rd.dataType==6){
+								  if(tNum==1){
+									  tType="小";
+								  }else{
+									  tType="大";
+								  }
+							  }
+				         }} 
+							<div class="cl_s">
+					      		 第{{=tRank}}名：{{=tType}}<span style="margin: 0px 10px;">连开</span>{{=rd.nowMissing}} 期
+					      	</div>
+				     	 {{
+				     	 	} 
+				     	 }}
+			     	 </script>
+			</div>
+		</div>
+		<ul style="font-family: '微软雅黑'" id="ball-choose">
+			<li style="line-height: 13px;"><span style="font-size: 14px;">查看车号分布：</span></li>
+			<li>
+				<span class="pk10"><b data-c="1" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号1</label></span>
+			</li>
+			<li>
+				<span class="pk10"><b data-c="2" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号2</label></span>
+			</li>
+			<li>
+				<span class="pk10"><b data-c="3" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号3</label></span>
+			</li>
+			<li>
+				<span class="pk10"><b data-c="4" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号4</label></span>
+			</li>
+			<li>
+				<span class="pk10"><b data-c="5" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号5</label></span>
+			</li>
+			<li>
+				<span class="pk10"><b data-c="6" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号6</label></span>
+			</li>
+			<li>
+				<span class="pk10"><b data-c="7" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号7</label></span>
+			</li>
+			<li>
+				<span class="pk10"><b data-c="8" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号8</label></span>
+			</li>
+			<li>
+				<span class="pk10"><b data-c="9" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号9</label></span>
+			</li>
+			<li>
+				<span class="pk10"><b data-c="10" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号10</label></span>
+			</li>
+			<li style="position:relative;">
+				<div class="bg_u4">
+				  <input type="button" onclick="SetChk()" value="还原" style="*padding-top:3px">
+				</div>
+			</li>
+		</ul>
+		<div style="clear: both"></div>
+		<div id="history-table">
+			<table id="history" class="lot-table">
+				<tbody>
+					<tr class="head">
+						<td width="160">时间</td>
+						<td width="350">开奖号码</td>
+						<td colspan="3">冠亚军和</td>
+						<td colspan="5">1~5龙虎</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		</div>
+    <script type="text/javascript">
+        $(function () {
+            callFun();
+        });
+        function callFun(){
+            LoadPk10TipSet();
+            getHistoryData(200);
+            reloadBallStatRemind();
+            reloadChangLong();
+        }
+        function reloadBallStatRemind() {
+            $.get("/pk10/getBallStat.do?today=1",function(r){
+                if (r) {
+                    doTCompile("ball_stat_list", r);
+                }
+            },"json");
+        }
+        function getVal(datas,date,rank,dataType,num){
+            var dayTotalNum="0";
+            for(var i=0;i<datas.length;i++){
+                var d=datas[i];
+                if(d.lotteryDate==date&&d.num==num&&d.dataType==dataType&&d.rank==rank){
+                    dayTotalNum= d.dayTotalNum;
+                    break;
+                }
+            }
+            return dayTotalNum;
+        }
+        var NUM_INDEX = {1:'冠　军',2:'亚　军',3:'季　军',4:'第四名',5:'第五名',
+            6:'第六名',7:'第七名',8:'第八名',9:'第九名',10:'第十名'};
+        var NUM_TYPE = {1:'大',2:'小',3:'单',4:'双',5:'龙', 6:'虎'};
+        function reloadChangLong() {
+            $.post("/pk10/getMergeData.do",
+                    function(r) {
+                        if (r) {
+                            doTCompile("cl_list", r.clList);
+                        }
+                    }, "json");
+        }
+        function Search() {
+            $.get("/pk10/kaijiang.do", { date: $("#dateData").val() }, function (result) {
+                if(result&&result.rows&&result.rows.length>0){
+                    var j = 0;
+                    var html = '';
+                    for(var i in result.rows){
+                        var data = result.rows[i];
+                        var clsName = "even";
+                        if (j%2==0) {
+                            clsName = "odd";
+                        }
+                        html += '<tr class="' + clsName + '"><td><p class="p">' + data.termNum + '</p><p class="t">'
+                        + data.lotteryTime.substring(5, 16);
+                        html += '</p></td><td class="nums">';
+                        html += '<i class="pk-no' + data.n1 + '"></i>';
+                        html += '<i class="pk-no' + data.n2 + '"></i>';
+                        html += '<i class="pk-no' + data.n3 + '"></i>';
+                        html += '<i class="pk-no' + data.n4 + '"></i>';
+                        html += '<i class="pk-no' + data.n5 + '"></i>';
+                        html += '<i class="pk-no' + data.n6 + '"></i>';
+                        html += '<i class="pk-no' + data.n7 + '"></i>';
+                        html += '<i class="pk-no' + data.n8 + '"></i>';
+                        html += '<i class="pk-no' + data.n9 + '"></i>';
+                        html += '<i class="pk-no' + data.n10 + '"></i>';
+                        var guanyahe = data.n1 + data.n2;
+                        html += '</td>';
+                        html += '<td>' + guanyahe + '</td>';
+                        var guanyahedx = '大';
+                        if(guanyahe==11){
+                            guanyahedx = '和';
+                        }else if(guanyahe<11){
+                            var guanyahedx = '小';
+                        }
+                        html += '<td><p ' + (guanyahedx == "大" ? 'class="r"' : '') + '>' + guanyahedx + '</p></td>';
+                        var guanyaheds = '单';
+                        if(guanyahe==11){
+                            guanyaheds = '和';
+                        }else if(guanyahe%2==0){
+                            guanyaheds = '双';
+                        }
+                        html += '<td><p ' + (guanyaheds == "单" ? 'class="r"' : '') + '>' + guanyaheds + '</p></td>';
+                        var longhu = new Array();
+                        longhu[0] = (data.n1>data.n10)?"龙":"虎";
+                        longhu[1] = (data.n2>data.n9)?"龙":"虎";
+                        longhu[2] = (data.n3>data.n8)?"龙":"虎";
+                        longhu[3] = (data.n4>data.n7)?"龙":"虎";
+                        longhu[4] = (data.n5>data.n6)?"龙":"虎";
+                        for (var i = 0; i < longhu.length; i++) {
+                            html += '<td><p ' + (longhu[i] == "龙" ? 'class="r"' : '') + '>' + longhu[i] + '</p></td>';
+                        }
+                        html += '</tr>';
+                        j++;
+                    }
+                    $("#history .head").nextAll().remove();
+                    $("#history .head").after(html);
+                }else{
+                    $("#history tr:gt(0)").remove();
+                }
+            }, "json");
+        }
+        function showCarNum() {
+            var datas = [];
+            var ckbeds = $("#ball-choose li b.checked");
+            for (var i = 0; i < ckbeds.length; i++) {
+                datas.push($(ckbeds[i]).attr("data-c"));
+            }
+
+            $(".nums i").removeClass("noshade");
+            if (datas.length > 0) {
+                $(".nums").addClass("shade");
+            }
+            for (var i = 0; i < datas.length; i++) {
+                var c = ".pk-no" + datas[i];
+                $(c).addClass("noshade");
+            }
+            if (datas.length == 0) {
+                $(".nums").removeClass("shade");
+            }
+        }
+
+        $("#ball-choose li").click(function () {
+
+            var c = $("b", $(this)).attr("data-c");
+
+            if ($("b", $(this)).attr("class") == "checkbox") {
+                $("b", $(this)).addClass("checked");
+            } else {
+                $("b", $(this)).removeClass("checked");
+            }
+            showCarNum();
+        })
+        function SetChk()
+        {
+            $("#ball-choose b").removeClass("checked");
+            $(".nums").removeClass("shade");
+        }
+    </script>
+		<div class="clear"></div>
+    </div>
+</div>
+<div class="clear"></div>
+</block>
+
+        

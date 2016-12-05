@@ -1,0 +1,874 @@
+@charset "utf-8";
+
+html,body{width:100%;-webkit-font-smoothing:antialiased;height:100%;}
+body,ol,ul,li,p,h1,h2,h3,h4,h5,h6,form,input,textarea,select,figure,figcaption,header,nav,section,article,aside,details,footer,hgroup,menu{margin:0;padding:0;
+font-family:"宋体",Ubuntu,Arial,"libra sans",sans-serif;
+font-size:14px;
+color:#333;
+}
+p{
+line-height:24px;
+}
+
+
+body{background:url("../images/billie_holiday.png") repeat center center;}
+#container{background:transparent;}
+
+textarea{resize:none;overflow:auto;}
+li{list-style:none;}
+img{border:none;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block;}
+a{text-decoration:none;color:#333;
+/*transition:all .2s ease-out;*/
+}
+input,textarea,select,a:focus{outline:none;}
+.clearfix:after{content:"Thilina Fong";display:block;clear:both;height:0;visibility:hidden;}
+.clearfix{_zoom:1;}
+
+
+/* 皇家會員中心 CSS Document edit by Thilina Fong Hok Cung*/
+
+#header:after,#logo:after,#nav:after,div.ckb:after,form#loginform .plus:after,.allserv p:after,#gm_footer:after,#b_content:after,form#registerform .typtin .yzm:after,form#registerform:after,#rpw_content .step:after
+{content:"Thilina Fong";display:block;clear:both;height:0;visibility:hidden;}
+/*
+以上清除浮動
+*****************************************
+*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+/*
+以上animate css3運動特效
+*****************************************
+*/
+#container{
+	height:100%;
+	position:relative;
+	background:#f5f5f5;
+}
+header{
+	background:#fff;
+}
+#header{
+	width:1000px;
+	margin:0 auto;
+	height:79px;
+	_zoom:1;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#logo{
+	height:79px;
+	_zoom:1;
+	float:left;
+}
+#logo a{
+	background:url("../images/logo_v2.png") no-repeat;
+	display:block;
+	width:266px;
+	height:80px;
+	float:left;
+}
+#logo label{
+	display:block;
+	float:left;
+	height:24px;
+	border-left:1px solid #a6a6a6;
+	color:#a6a6a6;
+	margin:32px 0 0 8px;
+	padding-left:8px;
+	font:normal 16px/24px '微软雅黑',Arial, Helvetica, sans-serif;
+}
+#nav{
+	padding-top:4px;
+	float:right;
+	_zoom:1;
+	_width:300px;
+}
+#nav li{
+	float:left;
+	margin-left:20px;
+	_display:inline;
+	_width:72px;
+}
+#nav a{
+	display:block;
+	background:url("../images/icon.png") no-repeat;
+	padding:4px;
+	padding-left:20px;
+	font-size:12px;
+}
+#nav a.home{
+	background-position:0 4px;
+}
+#nav a.zhibo{
+	background-position:-100px 4px;
+}
+#nav a.software{
+	background-position:-200px 4px;
+}
+#nav a:hover{
+	color:#d32020;
+}
+#nav a:hover.home{
+	background-position:0 -21px;
+}
+#nav a:hover.zhibo{
+	background-position:-100px -21px;
+}
+#nav a:hover.software{
+	background-position:-200px -21px;
+}
+
+/*
+header樣式
+*****************************************
+*/
+.typt_notice{
+	text-align:left;
+	font-size:12px;
+	color:#df1e00;
+	width:280px;
+	padding-left:26px;
+	padding-bottom:10px;
+	visibility:hidden;
+	margin:0 auto;
+	background:url("../images/icon.png") no-repeat -188px -390px;
+}
+
+
+.logincontent_wrap{
+	/* background:url(../images/rg_bg.png) no-repeat center bottom;*/
+	background:-moz-radial-gradient(center 40%,rgba(250,250,250,1),rgba(250,250,250,0) 70%,rgba(250,250,250,0));
+	background:-webkit-radial-gradient(center 40%,rgba(250,250,250,1),rgba(250,250,250,0) 70%,rgba(250,250,250,0));
+	background:-o-radial-gradient(center 40%,rgba(250,250,250,1),rgba(250,250,250,0) 70%,rgba(250,250,250,0));
+	background:-ms-radial-gradient(center 40%,rgba(250,250,250,1),rgba(250,250,250,0) 70%,rgba(250,250,250,0));
+	border-top:1px solid #dedede;
+}
+
+#logincontent{
+	width:1000px;
+	margin:0 auto;
+	padding-top:70px;
+	padding-bottom:70px;
+}
+#login_form{
+	background:url("../images/one_for_all.png") no-repeat center 0;
+	padding-top:166px;
+}
+/*
+登錄樣式
+*/
+form#loginform{
+	background:url("../images/form_bg.png") no-repeat;
+	width:366px;
+	height:236px;
+	margin:0 auto;
+	padding-top:14px;
+}
+form#loginform input{
+	border:none;
+	background:none;
+	display:block;
+	margin-left:90px;
+	color:#000;
+	height:38px;
+	line-height:38px;
+	width:240px;
+}
+form#loginform p.login_button{
+	padding-top:13px;
+	padding-bottom:4px;
+}
+form#loginform p.login_button a{
+	background:url("../images/icon.png") no-repeat 0 -100px;
+	width:314px;
+	height:44px;
+	display:block;
+	margin-left:31px;
+	text-indent:-9999px;
+}
+form#loginform p.login_button a:hover{
+	background:url("../images/icon.png") no-repeat 0 -150px;
+}
+form#loginform .plus{
+	_zoom:1;
+	padding:0 25px;
+}
+form#loginform .plus div.ckb{
+	float:left;
+	_zoom:1;
+    margin-left: 6px;
+	margin-top:4px;
+	_display:inline;
+}
+.ckb{
+	height:14px;
+	line-height:14px;
+}
+form#loginform .plus .ckb label{
+	font-size:12px;
+}
+.ckb label{
+	cursor: pointer;
+    display: block;
+    float: left;
+    padding-left: 5px;
+}
+.ckb .checkbox {
+    margin-top:1px;
+}
+
+.checkbox {
+    background: url("../images/icon.png") no-repeat;
+	background-position:0 -50px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 15px;
+    width: 15px;
+}
+.checked {
+    background-position: 0 -74px !important;
+}
+form#loginform .plus .unaccessible{
+	float:right;
+}
+form#loginform .plus .unaccessible a{
+	font-size:12px;
+	color:#90612e;
+}
+form#loginform .plus .unaccessible a:hover{
+	text-decoration:underline;
+}
+
+
+/*註冊樣式*/
+form#registerform{
+	width:464px;
+	padding-left:44px;
+	padding-right:68px;
+	margin:0 auto;
+	padding-top:14px;
+	height:450px;
+	background:url("../images/form_bg_2.png") no-repeat;
+	_zoom:1;
+}
+form#registerform .typtin{
+	width:308px;
+	float:left;
+}
+form#registerform .typtin input{
+    display:block;
+	border:none;
+	background:none;
+	background:transparent;
+	height:18px;
+	line-height:18px;
+	margin-left:80px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:228px;
+	margin-bottom:13px;
+	_margin-bottom:11px;
+}
+form#registerform .typtin .yzm{
+	_margin-bottom:10px;
+	_margin-top:10px;
+	_zoom:1;
+}
+form#registerform .typtin .yzm input{
+	width:130px;
+	float:left;
+    _display: inline;
+}
+form#registerform .typtin .yzm img{
+	float:right;
+	margin-top:3px;
+}
+form#registerform .typtin .ckb{
+	_zoom:1;
+}
+form#registerform .typtin .ckb b{
+	_margin-left:1px;
+}
+form#registerform .typtin .ckb label{
+	color:#d20000;
+	font-size:12px;
+}
+form#registerform .typtin .reg_button{
+	padding-top:10px;
+}
+form#registerform .typtin .reg_button a{
+	background: url("../images/icon.png") no-repeat 0 -286px;
+    display: block;
+    height: 42px;
+    text-indent: -888888px;
+    width: 308px;
+}
+form#registerform .typtin .reg_button a:hover{
+	background-position:0 -338px;
+}
+
+form#registerform .side{
+	width:120px;
+	float:right;
+}
+form#registerform .side h6{
+	font-weight:normal;
+	color:#333;
+	text-align:center;
+	margin-top:10px;
+}
+form#registerform .side p{
+	padding-top:26px;
+	padding-bottom:30px;
+	padding-left:3px;
+}
+form#registerform .side p a{
+	display:block;
+	width:114px;
+	height:34px;
+	color:#d32020;
+	font-weight:bold;
+	background:url("../images/icon.png") no-repeat -30px -50px;
+	text-align:center;
+	line-height:34px;
+}
+form#registerform .side p a:hover{
+	background-position:-195px -50px;
+}
+form#registerform .side .ad1{
+	width:120px;
+}
+/*
+小小footer
+*****************************************
+*/
+#footer{
+	width:360px;
+	margin:0 auto;
+}
+#footer p{
+	text-align:center;
+	color:#919191;
+	font-size:12px;
+}
+#footer .linkbox a{
+	margin:0 4px;
+	color:#919191;
+}
+#footer .linkbox a:hover{
+	color:#B30000;
+}
+
+/*
+通用footer
+*****************************************
+*/
+footer{
+	background:#ddd;
+	width:100%;
+}
+#gm_footer{
+	width:1000px;
+	margin:0 auto;
+	padding:30px 0;
+	_zoom:1;
+}
+#gm_footer p{
+	text-align:center;
+	color:#5a5a5a;
+	font-size:12px;
+	float:left;
+	_display:inline;
+}
+#gm_footer .linkbox{
+	margin-left:200px;
+	margin-right:40px;
+}
+#gm_footer .linkbox a{
+	margin:0 8px;
+	color:#5a5a5a;
+}
+#gm_footer .linkbox a:hover{
+	color:#B30000;
+}
+/*
+全部服務都在這裡啦
+*****************************************
+*/
+.allserv a.dropdown_as{
+	position:absolute;
+	left:50%;
+	top:-31px;
+	display:block;
+	width:62px;
+	margin-left:-31px;
+	height:60px;
+	background:url("../images/icon.png") no-repeat;
+	background-position:0 -212px;
+	/*text-indent:-88888888px;*/
+}
+
+.allserv a.unfold{
+	background-position:-144px -212px;
+}
+.allserv_wrap{
+	background:#e5e5e5;
+	background:radial-gradient(#f1f1f1,#e5e5e5 60%,#e5e5e5);
+	background:-moz-radial-gradient(#f1f1f1,#e5e5e5 60%,#e5e5e5);
+	background:-webkit-radial-gradient(#f1f1f1,#e5e5e5 60%,#e5e5e5);
+	background:-o-radial-gradient(#f1f1f1,#e5e5e5 60%,#e5e5e5);
+	
+	border-top:8px solid #ddd;
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	min-width:1000px;
+}
+.allserv{
+	border-top:1px solid #fff;
+	padding:50px 0;
+	position:relative;
+}
+.allserv p{
+	_zoom:1;
+	margin:0 auto;
+}
+.allserv .row1{
+	width:830px;
+}
+.allserv a{
+	display:block;
+	float:left;
+	height:48px;
+	background:url("../images/allserv.png") no-repeat;
+	margin-right:10px;
+	text-indent:-9999px;
+}
+.allserv a.a11{
+	width:128px;
+	background-position:0 0;
+}
+.allserv a.a12{
+	width:132px;
+	background-position:-142px 0;
+}
+.allserv a.a13{
+	width:104px;
+	background-position:-274px 0;
+}
+.allserv a.a14{
+	width:126px;
+	background-position:-388px 0;
+}
+.allserv a.a15{
+	width:156px;
+	background-position:-524px 0;
+}
+.allserv a.a16{
+	width:114px;
+	background-position:-690px 0;
+}
+/*
+hover
+*/
+.allserv a:hover.a11{
+	width:128px;
+	background-position:0 -140px;
+}
+.allserv a:hover.a12{
+	width:132px;
+	background-position:-142px -140px;
+}
+.allserv a:hover.a13{
+	width:104px;
+	background-position:-274px -140px;
+}
+.allserv a:hover.a14{
+	width:126px;
+	background-position:-388px -140px;
+}
+.allserv a:hover.a15{
+	width:156px;
+	background-position:-524px -140px;
+}
+.allserv a:hover.a16{
+	width:114px;
+	background-position:-690px -140px;
+}
+
+
+.allserv .row2{
+	width:710px;
+	margin-top:30px;
+}
+.allserv .row2 a{
+	width:44px;
+	height:44px;
+	margin-right:20px;
+}
+
+.allserv a.a21{
+	background-position:-70px -67px;
+}
+.allserv a.a22{
+	background-position:-131px -67px;
+}
+.allserv a.a23{
+	background-position:-195px -67px;
+}
+.allserv a.a24{
+	background-position:-257px -67px;
+}
+.allserv a.a25{
+	background-position:-319px -67px;
+}
+.allserv a.a26{
+	background-position:-382px -67px;
+}
+.allserv a.a27{
+	background-position:-445px -67px;
+}
+.allserv a.a28{
+	background-position:-507px -67px;
+}
+.allserv a.a29{
+	background-position:-569px -67px;
+}
+.allserv a.a210{
+	background-position:-630px -67px;
+}
+.allserv a.a211{
+	background-position:-692px -67px;
+}
+/*
+hover
+*/
+.allserv a:hover.a21{
+	background-position:-70px -207px;
+}
+.allserv a:hover.a22{
+	background-position:-131px -207px;
+}
+.allserv a:hover.a23{
+	background-position:-195px -207px;
+}
+.allserv a:hover.a24{
+	background-position:-257px -207px;
+}
+.allserv a:hover.a25{
+	background-position:-319px -207px;
+}
+.allserv a:hover.a26{
+	background-position:-382px -207px;
+}
+.allserv a:hover.a27{
+	background-position:-445px -207px;
+}
+.allserv a:hover.a28{
+	background-position:-507px -207px;
+}
+.allserv a:hover.a29{
+	background-position:-569px -207px;
+}
+.allserv a:hover.a210{
+	background-position:-630px -207px;
+}
+.allserv a:hover.a211{
+	background-position:-692px -207px;
+}
+
+
+.black_shade{
+	display:none;
+	background:#000;
+	background:rgba(0,0,0,.88);
+	filter:alpha(opacity=88);
+	width:100%;
+	height:100%;
+	position:fixed;
+	_position:absolute;
+	left:0;
+	top:0;
+}
+.popup1{
+	display:none;
+}
+#b_content{
+	background:#fff;
+	border:6px solid #ddd;
+	border-radius:4px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-366px;
+	margin-top:-200px;
+	_zoom:1;
+	width:560px;
+	padding-left:170px;
+	height:220px;
+	padding-top:70px;
+}
+				/*
+				*****************************************
+				類似的忘記密碼,後面還有綁定成功的樣式哦,別看走眼了
+				*/
+#rpw_content{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-366px;
+	margin-top:-220px;
+	_zoom:1;
+	width:730px;
+	height:340px;
+	/*overflow:hidden;*/
+}
+#rpw_content .step{
+	_zoom:1;
+	width:740px;
+}
+#rpw_content .step li{
+	float:left;
+	width:178px;
+	height:46px;
+	line-height:46px;
+	margin-right:6px;
+	background:url("../images/icon.png") no-repeat;
+	background-position:0 -390px;
+}
+#rpw_content .step li strong{
+	font-size:34px;
+	font-family: 'Francois One', 'Arial Black', Arial, sans-serif;
+	float:left;
+	color:white;
+	margin-left:8px;
+	margin-right:54px;
+	text-shadow:0 -1px 0 rgba(0,0,0,.9);
+}
+#rpw_content .step li span{
+	color:#fff;
+	font-size:14px;
+	float:left;
+}
+
+#rpw_content .step li.current{
+	background-position:0 -445px;
+}
+#rpw_content .step li.current span{
+	color:black;
+}
+
+/*
+*****************************************
+*/
+.wrap_step_content{
+	/*height:1800px;*/
+}
+
+.step0{
+	margin-top:8px;
+	border:6px solid #ddd;
+	height:270px;
+	background:#fff;
+	border-radius:4px;
+	/*display:none;*/
+}
+.step0 form{
+	padding-top:40px;
+}
+.step0 table{
+	border-collapse:collapse;
+	margin:0px auto;
+}
+.step0 td{
+	height:30px;
+	line-height:30px;
+	color:#515151;
+	font-size:12px;
+	vertical-align:middle;
+	padding:8px 0;
+}
+.step0 input{
+	height:28px;
+	line-height:28px;
+	float:left;
+	border:1px solid #d0d0d0;
+	width:258px;
+	padding-left:10px;
+}
+.step0 a.button_f1{
+	width:180px;
+	height:42px;
+	padding:0;
+	line-height:42px;
+	text-align:center;
+}
+
+/*step1************************/
+.step1 img{
+	float:right;
+}
+
+
+/*step2************************/
+.step2 img{
+	width:114px;
+	margin:40px auto 0;
+	display:block;
+}
+.step2 p{
+	font-size:16px;
+	text-align:center;
+	margin:12px 0 24px;
+	font-family: 'Francois One', 'Arial Black', Arial, sans-serif;
+}
+.step2 h4{
+	text-align:center;
+}
+a:hover.rreedd{
+	text-decoration:underline;
+}
+
+img.f_or_s{
+	display:block;
+	float:left;
+	margin-right:30px;
+}
+.turn_notice{
+	float:left;
+	_width:444px;
+}
+.turn_notice h2{
+	color:#515151;
+	font-size:16px;
+	margin-top:20px;
+}
+.rreedd,.turn_notice h2.rreedd{
+	color:#d50000;
+}
+a.button_f1{
+	display:block;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	background:#f60;
+	padding:14px 60px 9px;
+	border-bottom:3px solid #d55500;
+	float:left;
+}
+.turn_notice a.button_f1{
+	margin-top:40px;
+}
+a:hover.button_f1{
+	background:#fd771e;
+}
+
+.turn_notice p{
+	margin:4px 0 50px;
+	color:#515151;
+	font-size:12px;
+}
+.turn_notice h6{
+}
+
+a.button_f2{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	background-color:#ff6b08;
+}
+a:hover.button_f2{
+	background-color:#e45b00;
+}
+a.back_btn_color{
+	background-color:#9a9a9a;
+}
+a:hover.back_btn_color{
+	background-color:#888;
+}
+
+.step4{
+	height:200px;
+	padding-left: 80px;
+    padding-top: 70px;
+}
+
+.loading_img{
+	position:fixed;
+	_position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-80px;
+	margin-top:-20px;
+	display:none;	/*-->block*/
+}
+
+form#registerform .typtin .yzm .input_wrap{
+	_zoom:1;
+	float:left;
+}
+p.forinput_ie{position:absolute; left:80px; top:8px;_left:0px; _top:8px; color:#888; font-size:12px;}
+.yzm p.forinput_ie{_left:80px;}
+#loginform p.forinput_ie{
+	left:90px;
+	_left:0;
+}
+
+.reg_warnmsg {
+    width:500px;visibility: visible;margin:0 auto;color: #FC8686;font-size:12px;text-align:center;font-weight:bold;padding-bottom: 5px;
+}

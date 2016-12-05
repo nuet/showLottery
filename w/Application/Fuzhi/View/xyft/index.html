@@ -1,0 +1,746 @@
+<extend name="Base/common" />
+<block name="style">
+    <link href="css/lot/style.css" rel="stylesheet" />
+
+    <link href="css/lot/base.css" rel="stylesheet" />
+    <link href="css/lot/{$lottory}.css" rel="stylesheet" />
+
+    <script src="__PUBLIC__/Home/js/xyftget.js" type="text/JavaScript" />
+</block>
+<block name="body">
+    <!--body-content-->
+    <div class="body-content">
+        <!-- 彩票大厅 头部 -->
+        <include file="Public/top_ad"/>
+
+        <include file="Public/lottory_latest"/>
+
+        <div class="lot-wrap">
+
+            <div class="clear"></div>
+        </div>
+
+        <!--body-content-->
+        <div class="body-content">
+            <!-- 彩票大厅 头部 -->
+            <div class="lot-wrap">
+                <div class="clear"></div>
+                <input type="hidden" id="callFun" value="callFun" time="1000"/>
+
+                <div class="sub_bot_one" id="lot-wrap">
+                    <ul class="ullilolo"style=" display: block;cursor: pointer; color: #A85E09; font-size: 14px;">
+                        <li><span class="sub_bot_bt">开奖记录</span></li>
+                        <li id="showtext" onClick="showdiv('contentid1','showtext')">
+                            <span class="checkbox checked"></span><label class="ckb-txt">今日双面统计</label>
+                        </li>
+                        <li id="showtext2">
+                            <span class="checkbox"></span><label class="ckb-txt">长龙提醒</label>
+                        </li>
+                        <li id="showtext3" onClick="showdiv('contentid3','showtext3')">
+                            <span class="checkbox checked"></span><label class="ckb-txt">查看车号分布</label>
+                        </li>
+                        <li id="showtext4">
+                            <span class="checkbox checked"></span><label class="ckb-txt">显示大小</label>
+                        </li>
+                        <li id="showtext5">
+                            <span class="checkbox checked"></span><label class="ckb-txt">显示单双</label>
+                        </li>
+                        <li id="showtext6">
+                            <span class="checkbox"></span><label class="ckb-txt">显示广告</label>
+                        </li>
+                        <li style="float: right;margin-right: 20px;">
+					<span>
+						<label style="margin: 0px;">选择日期：</label></span>
+					<span>
+						<input style="width:100px;border-radius:5px;margin-bottom:5px" name="dateData" type="text" id="dateData" onClick="WdatePicker();"
+                               readonly="readonly" style="height:18px; margin:0px;"></span>
+                            <span style="padding-left: 10px;"><a style="margin: 0px;" href="javascript:Search();">查询</a></span>
+                        </li>
+                    </ul>
+                </div>
+                <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js" ></script>
+                <style>
+                    .sub_bot_one {
+                        background: url(images/sub_bot_bg.png) no-repeat;
+                        height: 45px;
+                        line-height: 45px;
+                        color: #5b250d;
+                        margin-bottom: 1px;
+                    }
+                    .ullilolo li {
+                        float: left;
+                    }
+                    .sub_bot_bt {
+                        color: #5b250d;
+                        font-size: 18px;
+                        margin-left: 20px;
+                        float: left;
+                        margin-right: 20px;
+                        margin-top: 8px;
+                        line-height: 30px;
+                    }
+                    .checkbox {
+                        display: inline-block;
+                        float: none;
+                        vertical-align: middle;
+                    }
+                    .ckb-txt {
+                        margin-right: 20px;
+                        vertical-align: middle;
+                    }
+                </style>
+
+
+                <div class="web_listOP">
+                </div>
+                <div class="clear"></div>
+                <!--  内容开始 -->
+                <!--今日双面统计 -->
+
+                <div style="clear:both;display: none;" id="contentid1" class="dataTableKuang">
+                    <div id="ball_stat_list-html"></div>
+                    <script id="ball_stat_list-tmpl" type="text/template">
+                        <table width="100%" cellspacing="1" cellpadding="0" border="0">
+                            <tbody>
+                            <tr class="huisekColor">
+                                <td class="firstTd" colspan="10"><span>今日双面统计</span></td>
+                            </tr>
+                            <tr class="huisekColor2">
+                                <td>
+                                    <div class="web_ballPaiMing">冠&#12288;军</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="web_ballPaiMing">亚&#12288;军</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="web_ballPaiMing">第三名</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="web_ballPaiMing">第四名</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="web_ballPaiMing">第五名</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="web_ballPaiMing">第六名</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="web_ballPaiMing">第七名</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="web_ballPaiMing">第八名</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="web_ballPaiMing">第九名</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div class="web_ballPaiMing">第十名</div>
+                                    <div class="web_bigAndSmall">
+                                        <ul>
+                                            <li>大</li>
+                                            <li>小</li>
+                                            <li>单</li>
+                                            <li>双</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            {{
+                            var rowsLen=it.length;
+
+                            var recArray=new Array();
+                            function addRecArray(recTermNum){
+                            var isExist=false;
+                            for(var i=0;i<recArray.length;i++){
+                            if(recArray[i]==recTermNum){
+                            isExist=true;
+                            break;
+                            }
+                            }
+                            if (!isExist) {
+                            recArray.push(recTermNum);
+                            }
+                            return isExist;
+                            }
+                            for(var i=0;i<rowsLen;i++){ /*循环开始A*/
+                            var rd=it[i];
+
+                            var dataType=rd.dataType;
+                            var ld=rd.lotteryDate;
+                            if(!addRecArray(ld)){
+                            }}
+                            <tr id="todayDoubleData" class="huisekColor">
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,1,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,1,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,1,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,1,5,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,2,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,2,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,2,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,2,5,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,3,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,3,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,3,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,3,5,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,4,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,4,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,4,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,4,5,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,5,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,5,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,5,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,5,5,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,6,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,6,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,6,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,1,6,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,7,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,7,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,7,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,7,5,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,8,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,8,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,8,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,8,5,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,9,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,9,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,9,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,9,5,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                                <td>
+                                    <div class="web_bigAndSmall2">
+                                        <ul>
+                                            <li>{{=getVal(it,ld,10,6,1)}}</li>
+                                            <li>{{=getVal(it,ld,10,6,2)}}</li>
+                                            <li>{{=getVal(it,ld,10,5,1)}}</li>
+                                            <li style="border:none;">{{=getVal(it,ld,10,5,2)}}</li>
+                                        </ul>
+                                    </div></td>
+                            </tr>
+                            {{
+                            }
+                            }
+                            }}
+                            </tbody>
+                        </table>
+                    </script>
+                </div>
+                <!-- 长龙 -->
+                <div id="contentid2" class="kaijiang_tiptool" style="width:99.8%">
+                    <div class="tiptool_head">
+                        <ul>
+                            <li>长龙连开提醒</li>
+                        </ul>
+                    </div>
+                    <div id="changlong_info" class="tiptool_info">
+                        <div id="cl_list-html" style="float: left;width: 104.3%;"></div>
+                        <script id="cl_list-tmpl" type="text/template">
+                            {{
+                            var rowsLen=it.length;
+
+                            for(var i=0;i<rowsLen;i++){ /*循环开始A*/
+                            var rd=it[i];
+                            var tRank="";
+                            if(rd.rank==1){
+                            tRank="冠";
+                            }else if(rd.rank==2){
+                            tRank="亚";
+                            }else if(rd.rank==3){
+                            tRank="三";
+                            }else if(rd.rank==4){
+                            tRank="四";
+                            }else if(rd.rank==5){
+                            tRank="五";
+                            }else if(rd.rank==6){
+                            tRank="六";
+                            }else if(rd.rank==7){
+                            tRank="七";
+                            }else if(rd.rank==8){
+                            tRank="八";
+                            }else if(rd.rank==9){
+                            tRank="九";
+                            }else if(rd.rank==10){
+                            tRank="十";
+                            }
+                            var tNum=rd.num;
+                            var tType="";
+                            if(rd.dataType==2){
+                            if(tNum%2==0){
+                            tType="虎";
+                            }else{
+                            tType="龙";
+                            }
+                            }else if(rd.dataType==5){
+                            if(tNum==1){
+                            tType="单";
+                            }else{
+                            tType="双";
+                            }
+                            }else if(rd.dataType==6){
+                            if(tNum==1){
+                            tType="小";
+                            }else{
+                            tType="大";
+                            }
+                            }
+                            }}
+                            <div class="cl_s">
+                                第{{=tRank}}名：{{=tType}}<span style="margin: 0px 10px;">连开</span>{{=rd.nowMissing}} 期
+                            </div>
+                            {{
+                            }
+                            }}
+                        </script>
+                    </div>
+                </div>
+
+                <style>
+                    #contentid3 li {
+                        float: left;
+                        padding: 5px;
+                    }
+                </style>
+
+                <!-- 查看车号分布 -->
+                <ul style="font-family: '微软雅黑';display:none;"  id="contentid3" >
+                    <li style="line-height: 13px;"><span style="font-size: 14px;">查看车号分布：</span></li>
+                    <li>
+                        <span class="pk10"><b data-c="1" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号1</label></span>
+                    </li>
+                    <li>
+                        <span class="pk10"><b data-c="2" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号2</label></span>
+                    </li>
+                    <li>
+                        <span class="pk10"><b data-c="3" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号3</label></span>
+                    </li>
+                    <li>
+                        <span class="pk10"><b data-c="4" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号4</label></span>
+                    </li>
+                    <li>
+                        <span class="pk10"><b data-c="5" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号5</label></span>
+                    </li>
+                    <li>
+                        <span class="pk10"><b data-c="6" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号6</label></span>
+                    </li>
+                    <li>
+                        <span class="pk10"><b data-c="7" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号7</label></span>
+                    </li>
+                    <li>
+                        <span class="pk10"><b data-c="8" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号8</label></span>
+                    </li>
+                    <li>
+                        <span class="pk10"><b data-c="9" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号9</label></span>
+                    </li>
+                    <li>
+                        <span class="pk10"><b data-c="10" class="checkbox"></b></span>
+				<span class="ckb-txt">
+					<label style="cursor: pointer">号10</label></span>
+                    </li>
+                    <li style="position:relative;margin-top:8px;">
+                        <div class="bg_u4">
+                            <input type="button" onclick="SetChk()" value="还原" style="*padding-top:3px">
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 广告 -->
+                <php>
+                    for($i = 0;$i<12;$i++){
+                    $gg[$i]['num'] = $i+1;
+                    $gg[$i]['link'] = '#';
+                    }
+                    shuffle($gg);
+                </php>
+                <div class="at" id="at" style="">
+
+                    <table>
+                        <tr >
+                            <td><a href="{$gg.1.link}"><img src="__PUBLIC__/Home/images/{$gg.1.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                            <td><a href="{$gg.2.link}"><img src="__PUBLIC__/Home/images/{$gg.2.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                        </tr>
+                        <tr >
+                            <td><a href="{$gg.3.link}"><img src="__PUBLIC__/Home/images/{$gg.3.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                            <td><a href="{$gg.4.link}"><img src="__PUBLIC__/Home/images/{$gg.4.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                        </tr>
+                        <tr >
+                            <td><a href="{$gg.5.link}"><img src="__PUBLIC__/Home/images/{$gg.5.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                            <td><a href="{$gg.6.link}"><img src="__PUBLIC__/Home/images/{$gg.6.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                        </tr>
+                        <tr >
+                            <td><a href="{$gg.7.link}"><img src="__PUBLIC__/Home/images/{$gg.7.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                            <td><a href="{$gg.8.link}"><img src="__PUBLIC__/Home/images/{$gg.8.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                        </tr>
+                        <tr >
+                            <td><a href="{$gg.9.link}"><img src="__PUBLIC__/Home/images/{$gg.9.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                            <td><a href="{$gg.10.link}"><img src="__PUBLIC__/Home/images/{$gg.10.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                        </tr>
+                        <tr >
+                            <td><a href="{$gg.11.link}"><img src="__PUBLIC__/Home/images/{$gg.11.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                            <td><a href="{$gg.0.link}"><img src="__PUBLIC__/Home/images/{$gg.0.num}.jpg" border=0 style="width: 485px; height: 60px; margin: 5px; margin-left: 5px;"></a></td>
+                        </tr>
+                    </table>
+
+                </div>
+
+
+
+
+
+                <!-- 主表数据 -->
+                <div class="clear"></div>
+                <div id="history_data-html"></div>
+                <script id="history_data-tmpl" type="text/template">
+                    <table id="history" class="lot-table">
+                        <tbody>
+                        <tr class="head">
+                            <td width="220">时间</td>
+                            <td>开奖号码</td>
+                            <td colspan="3">冠亚和</td>
+                            <td colspan="5">1~5龙虎</td>
+                        </tr>
+                        {{
+
+                        for (var i = 0; i
+                        <it.length
+                                ; i++) {
+                                var row=it[i];
+
+                                var lowDate=new Date(Date.parse(row.lotteryTime.replace(
+                        /-/g,"/"))).format("hh:mm");
+                        var totalNum=row.n1+row.n2;
+                        var lhStr="";
+                        var lhStr2="";
+                        var lhStr3="";
+                        var lhStr4="";
+                        var lhStr5="";
+
+                        if(row.n1>row.n10){
+                        lhStr="龙";
+                        }else if(row.n1
+                        <row.n10
+                                ){
+                                lhStr="虎" ;
+                                }else if(row.n1==row.n10){
+                                lhStr="和" ;
+                                }
+
+                                if(row.n2>row.n9){
+                            lhStr2="龙";
+                            }else if(row.n2
+                            <row.n9
+                                    ){
+                                    lhStr2="虎" ;
+                                    }else if(row.n2==row.n9){
+                                    lhStr2="和" ;
+                                    }
+
+                                    if(row.n3>row.n8){
+                                lhStr3="龙";
+                                }else if(row.n3
+                                <row.n8
+                                        ){
+                                        lhStr3="虎" ;
+                                        }else if(row.n3==row.n8){
+                                        lhStr3="和" ;
+                                        }
+
+                                        if(row.n4>row.n7){
+                                    lhStr4="龙";
+                                    }else if(row.n4
+                                    <row.n7
+                                            ){
+                                            lhStr4="虎" ;
+                                            }else if(row.n4==row.n7){
+                                            lhStr4="和" ;
+                                            }
+
+                                            if(row.n5>row.n6){
+                                        lhStr5="龙";
+                                        }else if(row.n5
+                                        <row.n6
+                                                ){
+                                                lhStr5="虎" ;
+                                                }else if(row.n5==row.n6){
+                                                lhStr5="和" ;
+                                                }
+
+
+                                                }}
+                                        <tr class="{{=(i+1)%2==0?'even':'odd'}}">
+                                            <td>
+                                                <p class="p">{{=row.termNum}}</p>
+
+                                                <p class="t">{{=lowDate}}</p>
+                                            </td>
+                                            <td class="nums">
+                                                <i class="pk-no{{=row.n1}}"></i>
+                                                <i class="pk-no{{=row.n2}}"></i>
+                                                <i class="pk-no{{=row.n3}}"></i>
+                                                <i class="pk-no{{=row.n4}}"></i>
+                                                <i class="pk-no{{=row.n5}}"></i>
+                                                <i class="pk-no{{=row.n6}}"></i>
+                                                <i class="pk-no{{=row.n7}}"></i>
+                                                <i class="pk-no{{=row.n8}}"></i>
+                                                <i class="pk-no{{=row.n9}}"></i>
+                                                <i class="pk-no{{=row.n10}}"></i>
+                                            </td>
+                                            <td>{{=totalNum}}</td>
+                                            <td class="{{=totalNum> 11?'r':''}}"><p>{{=totalNum<= 11?"小":"大"}}</p></td>
+                                            <td class="{{=totalNum%2!=0?'r':''}}"><p>{{=totalNum%2==0?"双":"单"}}</p></td>
+
+                                            <td><p class="{{=lhStr=='龙'?'pink':'b'}}">{{=lhStr}}</p></td>
+                                            <td><p class="{{=lhStr2=='龙'?'pink':'b'}}">{{=lhStr2}}</p></td>
+                                            <td><p class="{{=lhStr3=='龙'?'pink':'b'}}">{{=lhStr3}}</p></td>
+                                            <td><p class="{{=lhStr4=='龙'?'pink':'b'}}">{{=lhStr4}}</p></td>
+                                            <td><p class="{{=lhStr5=='龙'?'pink':'b'}}">{{=lhStr5}}</p></td>
+
+
+                                        </tr>
+                                        {{
+                                        }
+                                        }}
+                        </tbody>
+                    </table>
+                </script>
+                <script type="text/javascript">
+
+
+                    function showCarNum() {
+                        var datas = [];
+                        var ckbeds = $("#contentid3 li b.checked");
+                        for (var i = 0; i < ckbeds.length; i++) {
+                            datas.push($(ckbeds[i]).attr("data-c"));
+                        }
+
+                        $(".nums i").removeClass("noshade");
+                        if (datas.length > 0) {
+                            $(".nums").addClass("shade");
+                        }
+                        for (var i = 0; i < datas.length; i++) {
+                            var c = ".pk-no" + datas[i];
+                            $(c).addClass("noshade");
+                        }
+                        if (datas.length == 0) {
+                            $(".nums").removeClass("shade");
+                        }
+                    }
+
+                    $("#contentid3 li").click(function () {
+                        $(this).find(".checkbox").toggleClass('checked');
+                        showCarNum();
+                    })
+                    function SetChk() {
+                        $("#contentid3 b").removeClass("checked");
+                        $(".nums").removeClass("shade");
+                    }
+
+
+
+                </script>
+
+                <script>
+
+                    (function () {
+
+                        var timeid;
+
+                        timeid = setInterval(function () {
+
+                            var w = window.screen.availWidth;
+
+                            if (w == 0 || w > 1000) { return; }
+
+                            var rate = w / 250;
+
+                            $('body').css({
+
+                                "transform": "scale(" + rate + ")",
+
+                                "transform-origin": "0 0",
+
+                                "-webkit-transform": "scale(" + rate + ")",
+
+                                "-webkit-transform-origin": "0 0"
+
+                            });
+
+                            if (w > 0) {
+
+                                clearInterval(timeid);
+
+                            }
+
+                        }, 1000)
+
+                    })()
+
+                </script>
+
+
+            </div>
+            <!--  内容结束-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</block>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        

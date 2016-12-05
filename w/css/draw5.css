@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* 抽獎活動 CSS Document */
+
+html,body{width:100%;height:100%;-webkit-font-smoothing:antialiased;}
+.shade_layer{ position:absolute; left:0; top:0; width:100%; height:100%; background:#000;z-index:9999; opacity:0.7;filter:alpha(opacity=70);display:none;}
+
+#f_huodong{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    right: 50%;
+    top: 50%;
+    margin-right: -250px;
+    margin-top: -210px;
+    z-index: 99999;
+    display: none;
+}
+#f_huodong .img
+{
+    display:block;
+    width:500px;height:300px;
+	background:url("images/huodong/csj_index_dc.png") no-repeat center center;
+}
+#f_huodong a.close{
+	width:30px;
+	height:30px;
+	background:url("images/close.png") no-repeat;
+	display:block;
+	text-indent:-999999px;
+	position:absolute;
+	top:-15px;
+	right:-15px;
+	z-index:999999;
+}
+#f_huodong a:hover.close{
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+#lucky_entrrance{
+	top:38px;
+	right:34px;
+	float:right;
+	position:absolute;
+}
+#lucky_entrrance img{
+	z-index:110;
+	right:0;
+	position:absolute;
+	top:0;
+	width:70px;
+	height:75px;
+}
+#lucky_entrrance .msg_block{
+	right:0;
+	background:url("images/huodong/subscribe.png") no-repeat right top;
+	overflow:hidden;
+	width:70px;
+	height:75px;
+	position:absolute;
+	top:0;
+}

@@ -1,0 +1,43 @@
+<include file="Public/var"/>
+
+<block name="script"></block>
+
+<!--foot-->
+
+<div class="footer">
+
+  <div class="wrap">
+
+  <div class="footer_bottom">接口网版权所有© 2016-224</div><?php echo $tontji;?>
+
+</div>
+
+
+<script type="text/javascript" src="js/account.js" ></script>
+
+<script type="text/javascript">account.checkLogin();</script>
+
+<script type="text/javascript" src="js/service.js" ></script>
+
+<script type="text/javascript" src="js/util/jquery.easing.1.3.min.js" ></script>
+
+<script type="text/javascript" src="js/util/jquery.slides.min.js" ></script>
+
+<script type="text/javascript" src="js/util/highcharts.js" ></script>
+
+<script type="text/javascript" src="js/util/jschart.js" ></script>
+
+<script type="text/javascript" src="js/data/cfg/gameDate.js" ></script>
+
+<script type="text/javascript" src="js/data/game/pk10.js" ></script>
+
+<script type="text/javascript" src="js/page/index.js" ></script>
+
+{:hook('pageFooter', 'widget')}
+
+<div class="hidden">
+
+	<block name="hidden"><?php echo $tontji;?></block>
+
+</div>
+        

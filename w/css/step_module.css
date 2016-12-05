@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* 新用戶引導 CSS Document */
+
+.mask{position:absolute;left:0;top:0;width:100%;height:100%;/*js動態設定h值*/background:#000;z-index:9999;opacity:0.9;filter:alpha(opacity=90);display:none;}
+#step{position:absolute;top:0;width:1000px;/*js動態設定h值*/margin-left:-450px;+margin-left:-950px;z-index:10000;}
+.step_n{display:none;_display:block;}
+.step_n .step_body{text-indent:-9999px;}
+.step_n .words{position:absolute;border-left:1px solid #fff;border-bottom:1px solid #fff;background:url("../images/guide/descr_bg.png") no-repeat right top; padding:40px 50px 30px;}
+.step_n .words h4{margin-bottom:10px;}
+.step_n .words p{line-height:1em; text-align:right; padding-right:40px;}
+.step_n a.next_step,.step_n a.re_step,.step_n a.have_known{font-family:'宋体', Arial, Helvetica, sans-serif; color:#fff; font-size:12px; text-decoration:none; display:inline-block;padding:6px 10px; background:#eb2700;}
+.step_n a.have_known{ margin-left:10px;background:#991900;}
+.step_n a.close_mask{position:absolute;right:-15px;top:-15px;display:block; width:30px; height:30px; background:url("../images/guide/close.png") no-repeat;}
+.step_n a:hover.close_mask{ opacity:.65;}
+.step_n .line_to_step_body{position:absolute;display:block; width:30px;height:30px;}
+
+#step0{ position:absolute; left:450px; top:9900px;/*js動態獲取l和t值*/}
+#step0 .step_body{ width:431px; height:44px; background:url("../images/guide/mysite_1.png") no-repeat;}
+#step0 .words{ left:0px; top:70px;}
+#step0 .line_to_step_body{left: 280px;
+top: -30px;border-left:1px solid #fff;}
+
+#step1{ position:absolute; right:0px; top:9900px;/*js動態獲取l和t值*/}
+#step1 .step_body{ width:110px; height:32px; background:url("../images/guide/luzhu_2.jpg") no-repeat;}
+#step1 .words{ right:30px; top:-206px;}
+#step1 .line_to_step_body{right:10px; top:176px;border-left:1px solid #fff;}
+
+#step2{ position:absolute; right:0px; top:9900px;/*js動態獲取l和t值*/}
+#step2 .step_body{ width:24px; height:115px; background:url("../404.html") no-repeat;}
+#step2 .words{ right:54px; top:-42px;}
+#step2 .line_to_step_body{right:-30px; top:70px;border-top:1px solid #fff;}
+
+#step3{ position:absolute; right:0px; top:9900px;/*js動態獲取l和t值*/}
+#step3 .step_body{ width:136px; height:67px; background:url("../404.html") no-repeat;}
+#step3 .words{ right:166px; top:-42px;}
+#step3 .line_to_step_body{right:-30px; top:70px;border-top:1px solid #fff;}
+
+
+
+
+
+
+

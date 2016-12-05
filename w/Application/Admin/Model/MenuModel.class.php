@@ -1,0 +1,2 @@
+<?php
+ namespace Admin\Model; use Think\Model; class MenuModel extends Model { protected $_validate = array( array('url','require','url必须填写'), ); public function getPath($id){ $path = array(); $nav = $this->where("id={$id}")->field('id,pid,title')->find(); $path[] = $nav; if($nav['pid'] >1){ $path = array_merge($this->getPath($nav['pid']),$path); } return $path; } }

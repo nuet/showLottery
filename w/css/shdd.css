@@ -1,0 +1,46 @@
+.smallcell {
+	width: 40px;
+	font-family: "宋体";
+}
+
+.correct {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+}
+
+.fontred {
+	color: red;
+}
+
+.fontblue {
+	color: blue;
+}
+
+.fontgreen {
+	color: green;
+}
+
+.fontbold {
+	font-weight: bold;
+}
+
+.fontwhite {
+	color: white;
+}
+
+.bgred {
+	background-color: red;
+}
+
+.bgorange {
+	background-color: #fff2ea;
+}
+
+.newstyle td {
+	height: 30px;
+}
+
+.lot-number-omit .ball ul li a {
+	margin: 0 13px;
+}

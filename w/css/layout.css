@@ -1,0 +1,1755 @@
+@charset "utf-8";
+/*********************************************************************************************************************************** 
+ * CSS Document 
+ * 亚冠走势图css
+ * 时间日期：2014年8月28日
+ * 代码负责人：nickly
+************************************************************************************************************************************/
+
+.web_dateLineBody{
+	width:1000px;
+	margin:0 auto;
+	font-family:Tahoma;
+	color:#333;
+}
+.web_dateLineBody ul{
+    margin:0;
+	padding:0;
+	display:block;
+	list-style:none;
+}
+.web_topNav{
+	width:350px;
+	margin:0 auto;
+}
+.web_topNav ul li{
+	width:170px;
+	display:block;
+	float:left;
+	cursor:pointer;
+}
+.web_topNav ul li span.web_topNav_img1{
+	width:55px;
+	height:55px;
+	background: url("../images/basic01.png") no-repeat center;
+	display:block;
+	margin:0 auto;
+}
+.web_topNav ul li span.web_topNav_img2{
+	width:55px;
+	height:55px;
+	background: url("../images/theSame01.png") no-repeat center;
+	display:block;
+	margin:0 auto;
+}
+.web_topNav ul li span.web_topNav_font{
+	display:block;
+	font-size:14px;
+	font-family:"微软雅黑";
+	padding:10px 0 0 0;
+	color:#000000;
+	text-align:center;
+}
+.web_topNav ul li.hover span.web_topNav_img1{
+	background: url("../images/basic02.png") no-repeat center;
+}
+.web_topNav ul li.hover span.web_topNav_img2{
+	background: url("../images/theSame02.png") no-repeat center;
+}
+
+.web_topNav2{
+	width:350px;
+	margin:0 auto;
+}
+.web_topNav2 ul li{
+	width:170px;
+	display:block;
+	float:left;
+	cursor:pointer;
+}
+.web_topNav2 ul li span.web_topNav_img1{
+	width:55px;
+	height:55px;
+	background: url("../images/basic01.png") no-repeat center;
+	display:block;
+	margin:0 auto;
+    cursor:pointer;
+}
+.web_topNav2 ul li span.web_topNav_img2{
+	width:55px;
+	height:55px;
+	background: url("../images/theSame01.png") no-repeat center;
+	display:block;
+	margin:0 auto;
+    cursor:pointer;
+}
+.web_topNav2 ul li span.web_topNav_font{
+	display:block;
+	font-size:14px;
+	font-family:"微软雅黑";
+	padding:10px 0 0 0;
+	color:#000000;
+	text-align:center;
+}
+.web_topNav2 ul li.hover span.web_topNav_img1{
+	background: url("../images/basic02.png") no-repeat center;
+}
+.web_topNav2 ul li.hover span.web_topNav_img2{
+	background: url("../images/theSame02.png") no-repeat center;
+}
+.web_topNav2 ul li.hover span.web_topNav_font{
+	display:block;
+	font-size:14px;
+	font-family:"微软雅黑";
+	padding:10px 0 0 0;
+	color:#ed1c24;
+	text-align:center;
+	font-weight:bold;
+}
+
+
+.web_changeThree{
+	width:100%;
+	float:left;
+	clear:left;
+	padding:20px 0 0 0;
+}
+.web_changeThree ul{
+	border:1px solid #abadb3;
+	float:left;
+}
+.web_changeThree li{
+	width:113px;
+	height:34px;
+	font-size:12px;
+	text-align:center;
+	line-height:34px;
+	float:left;
+	background:#f3f3f5;
+	display:block;
+	cursor:pointer;
+}
+.web_changeThree li.hover{
+	background:#e6002d;
+	color:#fff;
+	font-weight:bold;
+}
+.web_changeThree li.list{
+	width:1px;
+	background:#abadb3;
+	font-size:0px;
+}
+.web_changeThree li a{
+	width:113px;
+	height:34px;
+	display:block;
+}
+.web_ball01s{
+	width:100%;
+	float:left;
+	clear:left;
+	padding:15px 0 0 0;
+}
+.web_ball01s .left{
+	float:left;
+	font-size:12px;
+	padding:10px 0 0 0 ;
+}
+.web_ball01s .right{
+	float:right;
+	font-size:12px;
+}
+.web_ball01s .left li{
+	float:left;
+	display:block;
+	text-align:center;
+	margin:0 10px 0 0;
+}
+
+.web_ball01s .right li{
+	float:left;
+	display:block;
+    margin-top: 3px;
+}
+.web_ball01s .right li.li01{
+	padding:2px 0 0 0;
+}
+.web_ball01s .right li .select{
+	display:block;
+	width:110px;
+}
+.web_ball01s .right li .select1{
+	display:block;
+	width:60px;
+}
+.dateLineTable{
+	width:100%;
+	float:left;
+	clear:left;
+	padding:25px 0 0 0 ;
+}
+.dateLineTable{
+	width:100%;
+	float:left;
+	clear:left;
+	padding:25px 0 0 0 ;
+}
+.dateLineTable table{
+	text-align:center;
+	font-size:12px;
+	background:#ccc;
+	border-collapse: separate;
+}
+
+
+/*===================================================================*/
+.web_numTenTable{
+	width:100%;
+	height:27px;
+}
+
+.web_numTens{
+	width:100%;
+	height:27px;
+}
+
+.web_tableLayer{
+	height:27px;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	
+}
+
+.web_numTenl{
+	width:100%;
+	height:27px;
+}
+
+.web_numTenlWidth{
+	width:100%;
+}
+
+.web_numTenTable li{
+	float:left;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	font-family:Tahoma;
+	font-size:12px;
+	line-height:27px;
+	font-family:Tahoma;
+	font-weight:bold;
+}
+
+.web_tableLayer li{
+	height:27px;
+	float:left;
+	display:block;
+	font-weight:bold;
+	border-right:1px solid #ccc;
+}
+
+.web_numTens li{
+	float:left;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+}
+
+.web_numTenl li{
+	float:left;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Arial;
+}
+.web_numTenlWidth li{
+	width:32px;
+}
+.web_numTenlWidth2 li{
+	width:50px;
+}
+.web_numWidth2 li{
+	width:50px;
+	font-weight:normal !important;
+}
+.web_numWidth3 li{
+	width:50px;
+	font-weight:bold;
+}
+.web_numWidth4 li{
+	width:27px;
+	font-weight:bold;
+}
+.web_numWidth30 li{
+	width:30px;
+	font-weight:bold;
+}
+.web_numTens3 li{
+	width:40px;
+}
+.web_numBallWidth57 li{
+	width:57px;
+}
+.web_numBallWidth2 li{
+	width:40px;
+}
+.web_numBallWidth3 li{
+	width:37px;
+}
+.web_numBallWidth33 li{
+	width:33px;
+}
+.web_numBallWidth35 li{
+	width:35px;
+}
+.web_numBallWidth51 li{
+	width:51px;
+}
+.web_numBallWidth62 li{
+	width:62px;
+}
+.web_numBallWidth5 li{
+	width:75px;
+}
+.web_numBallWidth7 li{
+	width:65px;
+}
+.fontNormal li{
+    font-weight:normal !important;
+}
+.web_numTenBall{
+	width:100%;
+	height:27px;
+}
+.web_numBallWidth1 li{
+	width:27px;
+}
+
+.web_numTenBall li{
+	float:left;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	background:url("../images/ballks1.png") no-repeat center;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	cursor:pointer;
+	
+}
+
+.web_numTens li.hover2{
+	background:url("../images/ballks3.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTenBall li.hover{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTenBall li.hover2{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTenBall li.hover3{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+
+
+.web_numTens li.redBall{
+	background:url("../images/ballkDefault.png") no-repeat center;
+	background-position:center 3px;
+	color:#FFF;
+}
+.web_numTens li.blueBall{
+	background:url("../images/ballkDefault.png") no-repeat center;
+	background-position:center -24px;
+	color:#FFF;
+}
+.web_numTens li.yellowBall{
+	background:url("../images/ballkDefault.png") no-repeat center;
+	background-position:center -51px;
+	color:#FFF;
+}
+
+
+.web_changeColor li.redBall{
+	background:url("../images/ballkHover.png") no-repeat;
+	background-position:center 3px;
+	color:#FFF;
+}
+.web_changeColor li.blueBall{
+	background:url("../images/ballkHover.png") no-repeat;
+	background-position:center -24px;
+	color:#FFF;
+}
+.web_changeColor li.yellowBall{
+	background:url("../images/ballkHover.png") no-repeat;
+	background-position:center -51px;
+	color:#FFF;
+}
+.web_changeColor li.hover,.web_changeColor li.hover2{
+    background-image:url("../images/ballkDefault.png");
+}
+
+/*===================================================================*/
+
+
+
+
+
+.web_numTens4{
+	width:100%;
+}
+.web_numTens4 li{
+	float:left;
+	width:50px;
+	height:34px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:34px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.web_numTens6{
+	width:100%;
+}
+.web_numTens6 li{
+	float:left;
+	width:68px;
+	height:34px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:34px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+.web_numTens7{
+	width:100%;
+}
+.web_numTens7 li{
+	float:left;
+	width:75px;
+	height:34px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:34px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.web_numTens8{
+	width:100%;
+}
+.web_numTens8 li{
+	float:left;
+	width:60px;
+	height:34px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:34px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.web_numTens5{
+	width:100%;
+}
+.web_numTens5 li{
+	float:left;
+	width:50px;
+	height:34px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:34px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+
+.web_numTen33{
+	width:100%;
+}
+.web_numTen33 li{
+	float:left;
+	width:78px;
+	height:34px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:34px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.web_numTen2Font2{
+	width:100%;
+}
+.web_numTen2Font2 li{
+	float:left;
+	width:75px;
+	height:34px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:34px;
+	font-family:Tahoma;
+	font-size:12px;
+}
+
+
+.web_numTen2Fonts{
+	width:100%;
+}
+.web_numTen2Fonts li{
+	float:left;
+	width:40px;
+	height:34px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:34px;
+	font-family:Tahoma;
+	font-size:12px;
+}
+
+
+.web_numTen3{
+	width:100%;
+	height:27px;
+}
+.web_numTen3 li{
+	float:left;
+	width:27px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Arial;
+}
+
+.web_numTen3s{
+	width:100%;
+	height:27px;
+}
+.web_numTen3s li{
+	float:left;
+	width:35px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Arial;
+}
+.web_numTen3s2{
+	width:100%;
+	height:27px;
+}
+.web_numTen3s2 li{
+	float:left;
+	width:32px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Arial;
+}
+
+
+
+.web_numTen4s{
+	width:100%;
+	height:27px;
+}
+.web_numTen4s li{
+	float:left;
+	width:35px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Arial;
+}
+
+
+
+.web_numTen4s2{
+	width:100%;
+	height:27px;
+}
+.web_numTen4s2 li{
+	float:left;
+	width:32px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Arial;
+}
+
+
+
+.web_numTen57{
+	width:100%;
+	height:27px;
+	
+}
+.web_numTen57 li{
+	float:left;
+	width:32px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+	
+}
+
+.web_numTen58{
+	width:100%;
+	height:27px;
+	
+}
+.web_numTen58 li{
+	float:left;
+	width:40px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+	
+}
+
+.web_numTen59{
+	width:100%;
+	height:27px;
+	
+}
+.web_numTen59 li{
+	float:left;
+	width:45px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+
+}
+
+.web_numTen60{
+	width:100%;
+	height:27px;
+	
+}
+.web_numTen60 li{
+	float:left;
+	width:50px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+}
+
+.web_numTen61{
+	width:100%;
+	height:27px;
+	
+}
+.web_numTen61 li{
+	float:left;
+	width:57px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+
+}
+
+.web_numTen62{
+	width:100%;
+	height:27px;
+	
+}
+.web_numTen62 li{
+	float:left;
+	width:68px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+
+}
+
+
+
+.web_numTen5s3{
+	width:100%;
+	height:27px;
+}
+.web_numTen5s3 li{
+	float:left;
+	width:32px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	
+}
+
+
+
+.web_numTen5s5{
+	width:100%;
+	height:27px;
+}
+.web_numTen5s5 li{
+	float:left;
+	width:45px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.web_numTen5s6{
+	width:100%;
+	height:27px;
+}
+.web_numTen5s6 li{
+	float:left;
+	width:50px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.web_numTen5s7{
+	width:100%;
+	height:27px;
+}
+.web_numTen5s7 li{
+	float:left;
+	width:57px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.web_numTen5s8{
+	width:100%;
+	height:27px;
+}
+.web_numTen5s8 li{
+	float:left;
+	width:68px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.web_numTen5 li.hover2{
+	background:url("../images/ballks3.png") no-repeat center;
+	color:#FFF;
+}
+
+.web_numTen57 li.hover2{
+	background:url("../images/ballks3.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen58 li.hover2{
+	background:url("../images/ballks3.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen59 li.hover2{
+	background:url("../images/ballks3.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen60 li.hover2{
+	background:url("../images/ballks3.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen61 li.hover2{
+	background:url("../images/ballks3.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen62 li.hover2{
+	background:url("../images/ballks3.png") no-repeat center;
+	color:#FFF;
+}
+
+
+/****************************************************/
+
+/****************************************************/
+
+
+.web_numTen5Ball2{
+	width:100%;
+	height:30px;
+}
+.web_numTen5Ball2 li{
+	float:left;
+	width:32px;
+	height:30px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:30px;
+	background:url("../images/ballks1.png") no-repeat center;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.web_numTen5Ball2 li.hover{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen5Ball2 li.hover2{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen5Ball2 li.hover3{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+
+
+.web_numTen5Ball3{
+	width:100%;
+	height:30px;
+}
+.web_numTen5Ball3 li{
+	float:left;
+	width:32px;
+	height:30px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:30px;
+	background:url("../images/ballks1.png") no-repeat center;
+	text-align:center;
+	font-family:"宋体";
+	font-size:12px;
+}
+.web_numTen5Ball3 li.hover{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen5Ball3 li.hover2{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen5Ball3 li.hover3{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+
+.web_numTen5Ball4{
+	width:100%;
+	height:27px;
+}
+.web_numTen5Ball4 li{
+	float:left;
+	width:32px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	background:url("../images/ballks1.png") no-repeat center;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:12px;
+	cursor:pointer;
+	font-weight:bold;
+}
+.web_numTen5Ball4 li.hover{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen5Ball4 li.hover2{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen5Ball4 li.hover3{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+
+
+
+.web_numTen5Ball46{
+	width:100%;
+	height:27px;
+}
+.web_numTen5Ball46 li{
+	float:left;
+	width:45px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	background:url("../images/ballks1.png") no-repeat center;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:12px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.web_numTen5Ball47{
+	width:100%;
+	height:27px;
+}
+.web_numTen5Ball47 li{
+	float:left;
+	width:50px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	background:url("../images/ballks1.png") no-repeat center;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:12px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.web_numTen5Ball48{
+	width:100%;
+	height:27px;
+}
+.web_numTen5Ball48 li{
+	float:left;
+	width:57px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	background:url("../images/ballks1.png") no-repeat center;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:12px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.web_numTen5Ball49{
+	width:100%;
+	height:27px;
+}
+.web_numTen5Ball49 li{
+	float:left;
+	width:68px;
+	height:27px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:27px;
+	background:url("../images/ballks1.png") no-repeat center;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:12px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.web_numTen5Ball4 li.hover{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen5Ball4 li.hover2{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.web_numTen5Ball4 li.hover3{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+
+
+
+
+.web_numTen5Ball2s{
+	width:100%;
+	height:30px;
+}
+.web_numTen5Ball2s li{
+	float:left;
+	width:32px;
+	height:30px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:30px;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.web_numTen5Ball2s li.hover2{
+	background:url("../images/ballks2.png") no-repeat center;
+	color:#FFF;
+}
+.redBalls{
+	width:27px;
+	height:27px;
+	background:url("../images/ballks2.png") no-repeat center;
+	display:block;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFF;
+	line-height:27px;
+	text-align:center;
+}
+.redBalls2{
+	width:18px;
+	height:18px;
+	background:url("../images/ballks2_s.png") no-repeat center;
+	display:block;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFF;
+	line-height:18px;
+	text-align:center;
+	position:absolute;
+	top:-8px;
+	right:-8px;
+	display:none;
+}
+.web_Prompt01{
+	width:100%;
+	padding:10px 0 20px 0;
+	float:left;
+	clear:left;
+	font-size:12px;
+	color:#c3271d;
+}
+.web_Prompt01 .leftPrompt{
+	display:block;
+	float:left;
+	color:#333;
+	font-size:12px;
+}
+.web_Prompt01 .rightPrompt{
+	display:block;
+	float:right;
+	font-size:12px;
+}
+.web_Prompt01 .leftPrompt span{
+	display:block;
+	float:left;
+	margin:0 10px 0 0;
+	font-size:12px;
+}
+
+.web_Sortk{
+	clear:left;
+	margin:2px 0 0 30px;
+}
+.web_Sortk li{
+	float:left;
+	display:block;
+	margin-right:8px;
+}
+.web_Sortk li font{
+	font-size:12px;
+	line-height:16px;
+}
+.web_Sortk li.ps1{
+	
+	height:16px;
+	background:none;
+}
+.web_Sortk li.btn{
+	width:11px;
+	height:16px;
+	background:url("../images/jt0s4.gif") no-repeat;
+}
+.web_Sortk li.btn1{
+	width:11px;
+	height:16px;
+	background:url("../images/jt0s21.gif") no-repeat;
+}
+.web_Sortk li.btn2{
+	width:11px;
+	height:16px;
+	background:url("../images/jt0s22.gif") no-repeat;
+}
+
+.web_Sortk li.btn span{
+	width:11px;
+	height:8px;
+	display:block;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	font-size:0px;
+	
+}
+.web_Sortk li.btn span.btn1{
+	width:11px;
+	height:8px;
+	display:block;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	font-size:0px;
+
+}
+.web_Sortk li.btn span.btn2{
+	width:11px;
+	height:8px;
+	display:block;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	font-size:0px;
+
+}
+
+.web_Sortk li.btn1 span{
+	width:11px;
+	height:8px;
+	display:block;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	font-size:0px;
+	
+}
+.web_Sortk li.btn1 span.btn1{
+	width:11px;
+	height:8px;
+	display:block;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	font-size:0px;
+
+}
+.web_Sortk li.btn1 span.btn2{
+	width:11px;
+	height:8px;
+	display:block;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	font-size:0px;
+
+}
+
+.web_Sortk li.btn2 span{
+	width:11px;
+	height:8px;
+	display:block;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	font-size:0px;
+	
+}
+.web_Sortk li.btn2 span.btn1{
+	width:11px;
+	height:8px;
+	display:block;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	font-size:0px;
+
+}
+.web_Sortk li.btn2 span.btn2{
+	width:11px;
+	height:8px;
+	display:block;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	font-size:0px;
+
+}
+
+
+.web_Prompt02{
+	float:left;
+	clear:left;
+	font-size:12px;
+	padding:15px 0 0 0;
+	width:100%;
+}
+.web_Prompt02 li{
+	display:block;
+	float:left;
+	margin-right:10px;
+}
+.web_Prompt02 li span{
+	display:block;
+	float:left;
+	padding:0 5px 10px 0;
+}
+.web_dataBallModel01{
+	width:100%;
+	float:left;
+	clear:left;
+}
+.web_dataBallModel02{
+	width:100%;
+	float:left;
+	clear:left;
+}
+.web_dataBallModel03{
+	width:100%;
+	float:left;
+	clear:left;
+}
+
+/***********************************************************************************************************************************
+ * CSS Document 
+ * 号码走势图css
+ * 时间日期：2014年8月30日
+ * 代码负责人：nickly
+***********************************************************************************************************************************/
+.web_huiseBackGround{
+	width:980px;
+	margin:10px 0 10px 0;
+	float:left;
+	clear:left;
+ 
+
+}
+.web_huiseBackGround_title{
+	width:975px;
+	height:36px;
+	margin:0 auto;
+	background:url("../images/bg_dot.gif") repeat-x bottom;
+	font-size:12px;
+	line-height:36px;
+    text-align:left;
+}
+.web_iconList{
+	width:965px;
+	height:63px;
+	margin:0 auto;
+	margin-top:27px;
+	clear:left;
+}
+.web_iconList li{
+	width:67px;
+	height:63px;
+	float:left;
+	margin:0 14px 0 14px;
+	cursor:pointer;
+	font-size:0px;
+	display:block;
+}
+.web_iconList li.icon1{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:0px 0px;
+}
+.web_iconList li.icon2{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:-67px 0px;
+}
+.web_iconList li.icon3{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:-134px 0px;
+}
+.web_iconList li.icon4{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:-201px 0px;
+}
+.web_iconList li.icon5{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:-268px 0px;
+}
+.web_iconList li.icon6{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:-335px 0px;
+}
+.web_iconList li.icon7{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:-402px 0px;
+}
+.web_iconList li.icon8{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:-469px 0px;
+}
+.web_iconList li.icon9{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:-536px 0px;
+}
+.web_iconList li.icon10{
+	background: url("../images/TrophyList_01.png") no-repeat center;
+	background-position:-603px 0px;
+    
+}
+.web_iconList li.cur{
+		background-image: url("../images/TrophyList_02.png");
+}
+
+.web_startBtn{
+	width:975px;
+	padding:35px 0 20px 0;
+	background:url("../images/bg_dot.gif") repeat-x bottom;
+	margin:0 auto;
+}
+.web_startBtn input{
+	width:183px;
+	height:49px;
+	background:url("../images/startBtn.png") no-repeat center;
+	border:none;
+	color:#FFF;
+	font-family:"微软雅黑";
+	font-size:18px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.web_startBtn span{
+	display:block;
+	color:#c3271d;
+	font-size:12px;
+	padding:15px 0 0 0;
+}
+.web_startBtn li{
+	width:190px;
+	display:block;
+	margin:0 auto;
+}
+.web_analysisResults{
+	width:975px;
+	height:30px;
+	margin:0 auto;
+	padding:20px 0 20px 0;	
+}
+.web_analysisResults li{
+	float:left;
+	font-size:12px;
+	display:block;
+	line-height:27px;
+	padding:0 8px 0 0;
+}
+.web_analysisResults li.right{
+	float:right;
+	padding:0;
+	width:170px;
+}
+.web_analysisResults li.right span{
+	display:block;
+	float:left;
+}
+.web_analysisResults li.right .select{
+	display:block;
+	width:110px;
+}
+.huiBalls{
+	width:27px;
+	height:27px;
+	background:url("../images/ballks1.png") no-repeat center;
+	display:block;
+	font-family:Tahoma;
+	font-size:11px !important;
+	font-weight:bold;
+	color:#333;
+	line-height:27px;
+	text-align:center;
+}
+.web_Prompt02{
+	width:975px;
+	padding:10px 0 20px 12px;
+	font-size:12px;
+	color:#c3271d;
+    text-align:left;
+}
+.web_tableDate{
+	width:975px;
+	clear:left;
+}
+.web_dataGY{
+	width:100%;
+	height:35px;
+}
+.web_dataGY li{
+	width:32px;
+	height:35px;
+	line-height:35px;
+	float:left;
+	border-right:1px solid #ccc;
+}
+.web_kj{
+	width:208px;
+	font-family:Tahoma;
+	font-weight:bold;
+}
+.web_kj li{
+	width:22px;
+	height:30px;
+	float:left;
+	border-right:1px solid #ccc;
+	line-height:30px;
+	display:block;
+}
+
+
+.web_iconList2{
+	width:965px;
+	height:63px;
+	margin:0 auto;
+	margin-top:27px;
+	clear:left;
+}
+.web_iconList2 li{
+	width:74px;
+	height:50px;
+	float:left;
+	margin:0 10px 0 10px;
+	cursor:pointer;
+}
+.web_iconList2 li.icon1{
+	background: url("../images/carList.png") no-repeat center;
+	background-position:0px 0px;
+}
+.web_iconList2 li.icon2{
+	background: url("../images/carList.png") no-repeat center;
+	background-position:-74px 0px;
+}
+.web_iconList2 li.icon3{
+	background: url("../images/carList.png") no-repeat center;
+	background-position:-148px 0px;
+}
+.web_iconList2 li.icon4{
+	background: url("../images/carList.png") no-repeat center;
+	background-position:-222px 0px;
+}
+.web_iconList2 li.icon5{
+	background: url("../images/carList.png") no-repeat center;
+	background-position:-296px 0px;
+}
+.web_iconList2 li.icon6{
+	background: url("../images/carList_01.png") no-repeat center;
+	background-position:-370px 0px;
+}
+.web_iconList2 li.icon7{
+	background: url("../images/carList.png") no-repeat center;
+	background-position:-444px 0px;
+}
+.web_iconList2 li.icon8{
+	background: url("../images/carList_01.png") no-repeat center;
+	background-position:-518px 0px;
+}
+.web_iconList2 li.icon9{
+	background: url("../images/carList_01.png") no-repeat center;
+	background-position:-592px 0px;
+}
+.web_iconList2 li.icon10{
+	background: url("../images/carList_01.png") no-repeat center;
+	background-position:-666px 0px;
+}
+.web_iconList2 li.cur{
+		background-image: url("../images/carList_02.png");
+}
+
+
+.web_DisplayNumber span{
+	display:block;
+	float:left;
+	line-height:18px;
+	margin:0 5px 0 0 ;
+	color:#333;
+}
+.web_DisplayNumberMk{
+	width:100%;
+	float:left;
+	clear:left;
+}
+.web_colorNum{
+	width:100%;
+}
+.web_colorNum li{
+	width:23px;
+	height:23px;
+	float:left;
+	display:block;
+	margin:10px 0 10px 10px;
+	position:relative;
+}
+.web_colorNum li.num1{
+	background:url("../images/Numberks_1.jpg") no-repeat;
+}
+.web_colorNum li.num2{
+	background:url("../images/Numberks_2.jpg") no-repeat;
+}
+.web_colorNum li.num3{
+	background:url("../images/Numberks_3.jpg") no-repeat;
+}
+.web_colorNum li.num4{
+	background:url("../images/Numberks_4.jpg") no-repeat;
+}
+.web_colorNum li.num5{
+	background:url("../images/Numberks_5.jpg") no-repeat;
+}
+.web_colorNum li.num6{
+	background:url("../images/Numberks_6.jpg") no-repeat;
+}
+.web_colorNum li.num7{
+	background:url("../images/Numberks_7.jpg") no-repeat;
+}
+.web_colorNum li.num8{
+	background:url("../images/Numberks_8.jpg") no-repeat;
+}
+.web_colorNum li.num9{
+	background:url("../images/Numberks_9.jpg") no-repeat;
+}
+.web_colorNum li.num10{
+	background:url("../images/Numberks_10.jpg") no-repeat;
+}
+
+
+.web_numTen4s_new1{
+	width:100%;
+	height:35px;
+}
+.web_numTen4s_new1 li{
+	float:left;
+	width:35px;
+	height:35px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:35px;
+	font-family:Tahoma;
+}
+.web_numTen4s_new2{
+	width:100%;
+	height:35px;
+}
+.web_numTen4s_new2 li{
+	float:left;
+	width:35px;
+	height:35px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:35px;
+	font-family:Tahoma;
+	font-weight:bold;
+}
+.web_numTen61_new{
+	width:100%;
+	height:35px;
+	
+}
+.web_numTen61_new li{
+	float:left;
+	width:57px;
+	height:35px;
+	border-right:1px solid #ccc;
+	display:block;
+	line-height:35px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#333;
+
+}
+.web_noDataDiv {
+    width:973px;
+    height:80px;
+    border:1px solid #dedede;
+    text-align:center;
+    color:#333;
+    font-size:12px;
+    font-family:"微软雅黑";
+    line-height:80px;
+    margin:0 0 0 2px;
+    background:#fff;
+}
+
+
+
+#trendChart .chosed{ background:#EDA386;}
+#trendChart .chosed td{ color:#FFF;}
+
+/* 走势图表  end*/
+
+.jsloading{ height:200px; background:url("../images/busy_anim.gif") no-repeat center #fff; width:100%;}
+[ms-controller],[ms-important],.ms-controller, .ms-important{display:none;}
+
+
+/*同期走势 提示样式*/
+.nextPeriod {
+width: 50%; padding-top: 20px; float: left; text-align: left;
+}
+.nextPeriodTip {
+width: 50%; padding-top: 20px; float: right; color: red; text-align: right;
+height:30px;
+}
+
+.web_nineGrid{
+	width:980px;
+	font-family: "微软雅黑";
+	border-collapse: collapse;
+    border-spacing:0; 
+	text-align:center;
+	font-size:12px;
+}
+ .web_nineGrid  tr,td{
+     padding:0px;
+}
+.web_nineGrid .firstTr{
+	font-size:16px;
+}
+.web_custom .btns{
+	background:url("../images/nine_btn01.gif") no-repeat;
+	width:37px;
+	height:21px;
+	display:block;
+	cursor:pointer;
+	float:left;
+	margin:0 10px 0 0;
+	font-size:12px;
+	line-height:21px;
+}
+ .web_internalDiv {
+     width:100%;
+     border-collapse: collapse;
+     border-spacing:0; 
+ }
+.web_internalDiv td{
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+	text-align:center;
+	width:33%;
+	height:23px;
+	line-height:23px;
+    padding:0px;
+}
+.web_blueTd{
+	background:#94ca6b;
+	color:#333;
+}
+.web_redTd{
+	background:#edb983;
+	color:#333;
+}
+.web_violetTd{
+	background:#c198d1;
+	color:#333;
+}
+.web_lightBlueTd{
+	background:#79bed4;
+	color:#333;
+}
+.web_lightGreenTd{
+	background:#bde479;
+	color:#333;
+}
+.web_lightyellowTd{
+	background:#fce87c;
+	color:#333;
+}
+.web_jtPos{
+	position:relative;
+}
+.web_jtPos span.jtk{
+	width:85%;
+	background:url("../images/nineJt01.gif") no-repeat right;
+	display:block;
+	cursor:pointer;
+}
+.web_custom{
+	width:146px;
+	margin:0 auto;
+}
+.web_custom span{
+	float:left;
+	display:block;
+	margin:0 10px 0 0;
+}
+.web_nine_balls{
+	background:url("../images/ballks2.png") no-repeat center;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	font-family:Tahoma;
+    border-bottom:1px solid #000;
+    border-right:1px solid #000;
+}
+.web_nine_select{
+	width:100%;
+	position:absolute;
+	background:#eee;
+	top:23px;
+	left:0px;
+	_left:-5px;
+	display:none;
+	z-index:999;
+}
+.web_nine_select i{
+	width:100%;
+	height:24px;
+	display:block;
+	text-align:center;
+	font-style:normal;
+	cursor:pointer;
+	border-bottom:1px solid #dedede;
+}
+.web_nine_select i.hover{
+	background:#999;
+	font-weight:bold;
+	color:#fff;
+}

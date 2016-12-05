@@ -1,0 +1,33 @@
+.footer {
+
+	margin-top:20px;
+
+	line-height:25px;
+
+	text-align:center;
+
+	padding-top:10px;
+
+	border-top:1px solid #ddd;
+
+	background:#FFF4EC;
+
+	height:auto;
+
+}
+
+.footer .foot_nav {
+
+	color:#ccc
+
+}
+
+.footer .foot_nav a {
+
+	padding:0px 10px 0px 10px; font-size:14px
+
+}
+
+.footer .footer_bottom { background:#463268; height:38px; line-height:38px; color:#f8f8f8; margin-top:10px;}
+
+.footer .footer_bottom a{ color:#fff}

@@ -1,0 +1,1 @@
+s:170:"{"guanyahedx":"小","drawingTime":"07-21 23:47","period":565982,"longhu":["虎","虎","龙","虎","虎"],"numbers":"6,1,3,4,5,7,8,2,9,10","guanyaheds":"单","guanyahe":7}";

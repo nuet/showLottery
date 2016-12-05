@@ -1,0 +1,114 @@
+.lot-nums
+{
+    border:solid 1px #cccccc;
+    padding-top:5px;
+    padding-left:15px;
+    clear:both;
+    width:338px;
+    background-color:#fff;
+    height:32px;
+}
+.lot-nums span {
+    background:url("../../images/index-ico.png") -10px -414px no-repeat;
+    width:28px; 
+    height:28px;
+    float:left;
+    margin-right:6px;
+    margin-left:6px;
+    font-family:Tahoma;
+    line-height:28px;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    color:#fff;
+}
+.lot-nums .red 
+{
+    background:url("../../images/index-ico.png") -48px -414px no-repeat;
+}
+.nums
+{
+    width:440px;
+    padding-left:10px;
+}
+.nums span {
+    float: left;
+    width: 8%;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0px 9px;
+    font-family: Arial, '宋体', '黑体', Verdana, Geneva, sans-serif;
+}
+.lot-table .no1
+{
+    color:#FF0000;
+}
+.lot-table .no2
+{
+    color:#5200FF;
+}
+.lot-table .no3
+{
+     color:#760000;
+}
+.lot-table .no4
+{
+    color:#2D92C2;
+}
+.lot-table .no5
+{
+     color:#008000;
+}
+.lot-table .no6
+{
+     color:#6F8A97;
+}
+.lot-table .no7
+{
+    color:#A76A2A;
+}
+.lot-table .no8
+{
+    color:#4C208C;
+}
+.lot-table .no9
+{
+    color:#6F8A97;
+}
+
+.lot-table .ptable {
+    width: 60%;
+    border: none;
+    margin: 0 auto;
+}
+
+    .lot-table .ptable .td1 {
+        border: none;
+        width: 40%;
+        text-align: center;
+    }
+
+    .lot-table .ptable .td2 {
+        border: none;
+        text-align: right;
+    }
+
+.rm_c0{color:Red !important ;}/*大、单、龙、中、东*/
+.rm_c1{color:blue !important; }/*小、双、虎、白、南*/
+.rm_c2{color:#FF00FF;}/*发、西、和*/
+.rm_c3{color:#008000;}/*北*/
+.wd-50
+{
+    width:50px;
+}
+
+/*大、单、西、发、龍*//*小、双、虎*//*东、中*//*白、南*//*北*/
+.lot-award .warnTime{ float:right;}
+.lot-award .currentAward{ width:512px;}
+.lot-award .currentAward .title{ height:24px; line-height:24px;}
+.lot-award .currentAward .period,.lot-award .currentAward .period-info{ line-height:24px;}
+.lot-nums{ width:500px; height:40px; padding:5px 0 5px 10px;}
+.lot-nums span{ width:40px; height:40px; background:url("../../images/index-ico.png") no-repeat -10px -453px !important; padding-right:0;padding-top:6px; margin-right:10px;}
+.lot-nums .red{ background:url("../../images/index-ico.png") no-repeat -60px -453px !important;}
+

@@ -1,0 +1,73 @@
+<extend name="Base/common"/>
+
+<block name="style">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/lot/{$lottory}.css" rel="stylesheet" />
+    <link href="css/feedback.css" rel="stylesheet" />
+    <link href="css/blue.css" rel="stylesheet" />
+</block>
+
+<block name="body">
+ 
+<!--body-content-->
+<div id="main">
+    <div id="theme_fb">
+        <h2>用户反馈</h2>
+    </div>
+
+    <!--意見反饋表單-->
+    <div class="fb_ft">
+        <form id="reform" method="post" onsubmit="return checkForm();">
+            <table>
+                <tbody>
+                    <tr>
+                        <td align="right" style="width: 100px;">
+                            <strong class="imp_star">*</strong>请选择问题：
+                        </td>
+                        <td align="left" style="width: 660px;">
+                            <p class="sel">
+                                <a href="javascript:;" class="sel_btn">网站优化建议<i></i></a>
+                                <span>
+                                    <a href="javascript:;" tid="2">网站优化建议</a>
+                                    <a href="javascript:;" tid="3">商务合作</a>
+                                    <a href="javascript:;" tid="1">其它相关问题</a>
+                                </span>
+                            </p>
+                            <span class="note_must"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <strong class="imp_star">*</strong>问题描述：
+                        </td>
+                        <td align="left">
+                            <textarea id="texContent"></textarea>
+                            <span class="note_must" id="spcontent"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><strong class="imp_star">*</strong>联系方式：
+                        </td>
+                        <td align="left">
+                            <input type="text" maxlength="50" id="txtcontact" style="width: 200px;" />
+                            <span class="note_must" id="spcontact"></span>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <a href="javascript:;" class="button">提交</a>
+
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </div>
+</div>
+<div class="clear"></div>
+ <script type="text/javascript" src="js/util/jquery.artDialog.min.js" ></script>
+<script type="text/javascript" src="js/uc/teatarea.js" ></script>
+<script type="text/javascript" src="js/uc/feedback.js" ></script>
+</block>

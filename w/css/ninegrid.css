@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+}
+.web_nineBlick{
+	width:980px;
+	position:relative;
+    z-index:1;
+}
+.web_nineGrid1{
+	width:978px;
+	font-family: "微软雅黑";
+	text-align:center;
+	font-size:12px;
+	border-left:1px solid #000;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	float:left;
+	clear:left;
+	color:#333;
+	background:#FFF;
+}
+.web_hiddenDiv{
+	width:980px;
+	float:left;
+	clear:left;
+	display:none;
+}
+.web_nineposition{
+	position:fixed;
+	top:0px;
+	*left:0px;
+}
+.web_nineGrid2{
+	width:977px;
+	font-family: "微软雅黑";
+	text-align:center;
+	font-size:12px;
+	border:1px solid #000;
+	border-top:none;
+	float:left;
+	clear:left;
+	color:#333;
+}
+
+.web_custom .btns{
+	background:url("../404.html") no-repeat;
+	width:37px;
+	height:21px;
+	display:block;
+	cursor:pointer;
+	float:left;
+	margin:13px 3px 0 0;
+	font-size:12px;
+	line-height:21px;
+}
+.web_nineGrid1 ul{
+	display:block;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.web_nineGrid1 li{
+	display:block;
+	float:left;
+	clear:left;
+}
+.web_nineGrid1 span{
+	display:block;
+	float:left;
+	height:17px;
+	border-right:1px solid #000;
+
+}
+.web_nineGrid2 ul{
+	display:block;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.web_nineGrid2  li{
+	width:100%;
+	display:block;
+	float:left;
+	clear:left;
+	border-bottom:1px solid #000;
+    height:23px;
+}
+.web_nineGrid2 span{
+	display:block;
+	float:left;
+	height:17px;
+	padding:3px 0 3px 0;
+	border-right:1px solid #000;
+}
+
+.web_noneTd{
+
+	background:#fff;
+}
+.web_blueTd{
+
+	background:#94ca6b;
+}
+.web_redTd{
+
+	background:#edb983;
+}
+.web_violetTd{
+
+	background:#c198d1;
+}
+.web_lightBlueTd{
+
+	background:#79bed4;
+}
+.web_lightGreenTd{
+
+	background:#bde479;
+}
+.web_lightyellowTd{
+
+	background:#fce87c;
+}
+.web_qhtime{
+	width:180px;
+}
+.web_qhtime font{
+	font-size:16px;
+	display:block;
+    line-height:22px;
+	padding:52px 0 0 0;
+}
+.web_block1{
+	width:40px;
+}
+.web_block1 font{
+	font-size:16px;
+	display:block;
+	line-height:22px;
+	padding:35px 0 0 0;
+}
+.web_block2{
+	width:40px;
+}
+.web_block3{
+	width:46px;
+	_width:45px;
+}
+.web_block4{
+	width:122px;
+	border:none;
+}
+.web_block5{
+	width:140px;
+}
+.web_nineGrid1 span.listBlock span.web_block6{
+	width:40px;
+	border-right:none;
+}
+.web_block7{
+	width:45px;
+}
+
+.web_block8{
+	width:140px;
+	border-right:none;
+}
+.web_block9{
+	width:46px;
+}
+.web_nineGrid1 span.listBlock span.web_jtPos{
+	width:100%;
+	position:relative;
+	height:auto;
+	float:none;
+	padding:0px;
+	border:none;
+}
+.web_nineGrid1 span.listBlock span.web_jtPos span.jtk{
+	width:85%;
+	background:url("../404.html") no-repeat right 6px;
+	display:block;
+	cursor:pointer;
+	border:none;
+	padding:0px;
+	text-decoration:none;
+}
+.web_custom{
+	width:140px;
+	margin:0 auto;
+}
+.web_custom span{
+	float:left;
+	display:block;
+	margin:0 5px 0 3px;
+	border:none;
+	width:auto;
+	height:auto;
+}
+.web_nine_balls{
+	background:url("../404.html") no-repeat center;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	font-family:Tahoma;
+}
+.web_nineGrid1 span.listBlock span.web_nine_select{
+	width:100%;
+	height:auto;
+	padding:0px;
+	position:absolute;
+	background:#eee;
+	top:21px;
+	left:0px;
+	display:none;
+	z-index:999;
+}
+.web_nine_select i{
+	width:100%;
+	height:24px;
+	display:block;
+	text-align:center;
+	font-style:normal;
+	cursor:pointer;
+	border-bottom:1px solid #dedede;
+}
+.web_nine_select i.hover{
+	background:#999;
+	font-weight:bold;
+	color:#fff;
+}
+.web_nineGrid1 span.web_blockHeight{
+	height:119px;
+	_height:120px;
+}
+.web_nineGrid1 span.titleBlock{
+	width:100%;
+	height:44px;
+	_height:45px;
+	border-bottom:1px solid #000;
+	border-right:none;
+	line-height:44px;
+	_line-height:45px;
+	font-size:16px;
+	margin:0px;
+	padding:0px;
+	display:block;
+}
+.web_nineGrid1 span.listBlock{
+	width:122px;
+	height:auto;
+	float:left;
+	clear:left;
+	border:none;
+}
+.web_nineGrid1 span.listBlock span{
+	float:left;
+	padding:3px 0 4px 0;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+.jsloading{ height:200px; background:url("../404.html") no-repeat center #fff; width:100%;}

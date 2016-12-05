@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <list>
+	<topnum >515865</topnum> 
+  	<tj ch ="9" ying ="3" shu ="3" num ="07,01,05,06,04" /> 
+  	<tj ch ="4" ying ="2" shu ="4" num ="05,07,04,10,02" /> 
+  	<tj ch ="10" ying ="2" shu ="4" num ="10,09,05,02,01" /> 
+	<cl ch ="4" type ="龙" num ="11" /> 
+	<cl ch ="4" type ="大" num ="11" /> 
+	<cl ch ="4" type ="双" num ="4" /> 
+	<cl ch ="7" type ="单" num ="4" /> 
+	<cl ch ="8" type ="大" num ="4" /> 
+	<cl ch ="" type ="" num ="" /> 
+ <cars  dNum ="大 86" xNum ="小 92" danNum ="单 76" sNum ="双 102">
+  <car  term_num ="64">9</car> 
+  <car  term_num ="63">2</car> 
+  <car  term_num ="62">2</car> 
+  <car  term_num ="61">7</car> 
+  <car  term_num ="60">3</car> 
+  <car  term_num ="59">7</car> 
+  <car  term_num ="58">10</car> 
+  <car  term_num ="57">2</car> 
+  <car  term_num ="56">6</car> 
+  <car  term_num ="55">7</car> 
+  <car  term_num ="54">6</car> 
+  <car  term_num ="53">1</car> 
+  <car  term_num ="52">8</car> 
+  <car  term_num ="51">1</car> 
+  <car  term_num ="50">10</car> 
+  <car  term_num ="49">3</car> 
+  <car  term_num ="48">10</car> 
+  <car  term_num ="47">10</car> 
+  <car  term_num ="46">1</car> 
+  <car  term_num ="45">1</car> 
+  <car  term_num ="44">4</car> 
+  <car  term_num ="43">4</car> 
+  <car  term_num ="42">4</car> 
+  <car  term_num ="41">1</car> 
+  <car  term_num ="40">4</car> 
+  <car  term_num ="39">9</car> 
+  <car  term_num ="38">7</car> 
+  <car  term_num ="37">4</car> 
+  <car  term_num ="36">8</car> 
+  <car  term_num ="35">2</car> 
+  <car  term_num ="34">10</car> 
+  <car  term_num ="33">4</car> 
+  <car  term_num ="32">10</car> 
+  <car  term_num ="31">2</car> 
+  <car  term_num ="30">5</car> 
+  <car  term_num ="29">7</car> 
+  <car  term_num ="28">2</car> 
+  <car  term_num ="27">6</car> 
+  <car  term_num ="26">4</car> 
+  <lb ch ="2" zk ="24" wk ="0" /> 
+  <lb ch ="4" zk ="24" wk ="19" /> 
+  <lb ch ="10" zk ="22" wk ="5" /> 
+  <lb ch ="7" zk ="22" wk ="2" /> 
+  <lb ch ="6" zk ="20" wk ="7" /> 
+  <lb ch ="1" zk ="19" wk ="10" /> 
+  <lb ch ="5" zk ="13" wk ="33" /> 
+  <lb ch ="3" zk ="12" wk ="3" /> 
+  <lb ch ="8" zk ="12" wk ="11" /> 
+  <lb ch ="9" zk ="10" wk ="24" /> 
+ </cars>
+ <cars  dNum ="大 89" xNum ="小 89" danNum ="单 85" sNum ="双 93">
+  <car  term_num ="64">5</car> 
+  <car  term_num ="63">9</car> 
+  <car  term_num ="62">5</car> 
+  <car  term_num ="61">2</car> 
+  <car  term_num ="60">4</car> 
+  <car  term_num ="59">10</car> 
+  <car  term_num ="58">1</car> 
+  <car  term_num ="57">4</car> 
+  <car  term_num ="56">3</car> 
+  <car  term_num ="55">6</car> 
+  <car  term_num ="54">1</car> 
+  <car  term_num ="53">4</car> 
+  <car  term_num ="52">9</car> 
+  <car  term_num ="51">9</car> 
+  <car  term_num ="50">8</car> 
+  <car  term_num ="49">2</car> 
+  <car  term_num ="48">8</car> 
+  <car  term_num ="47">9</car> 
+  <car  term_num ="46">9</car> 
+  <car  term_num ="45">5</car> 
+  <car  term_num ="44">6</car> 
+  <car  term_num ="43">3</car> 
+  <car  term_num ="42">8</car> 
+  <car  term_num ="41">2</car> 
+  <car  term_num ="40">10</car> 
+  <car  term_num ="39">4</car> 
+  <car  term_num ="38">8</car> 
+  <car  term_num ="37">8</car> 
+  <car  term_num ="36">2</car> 
+  <car  term_num ="35">5</car> 
+  <car  term_num ="34">4</car> 
+  <car  term_num ="33">6</car> 
+  <car  term_num ="32">1</car> 
+  <car  term_num ="31">4</car> 
+  <car  term_num ="30">6</car> 
+  <car  term_num ="29">3</car> 
+  <car  term_num ="28">10</car> 
+  <car  term_num ="27">1</car> 
+  <car  term_num ="26">5</car> 
+  <lb ch ="8" zk ="21" wk ="13" /> 
+  <lb ch ="3" zk ="21" wk ="7" /> 
+  <lb ch ="10" zk ="20" wk ="4" /> 
+  <lb ch ="6" zk ="20" wk ="8" /> 
+  <lb ch ="9" zk ="19" wk ="0" /> 
+  <lb ch ="1" zk ="19" wk ="5" /> 
+  <lb ch ="5" zk ="17" wk ="1" /> 
+  <lb ch ="4" zk ="17" wk ="3" /> 
+  <lb ch ="2" zk ="15" wk ="2" /> 
+  <lb ch ="7" zk ="9" wk ="52" /> 
+ </cars>
+<cars  dNum ="大 102" xNum ="小 76" danNum ="单 81" sNum ="双 97">
+  <car  term_num ="64">2</car> 
+  <car  term_num ="63">10</car> 
+  <car  term_num ="62">6</car> 
+  <car  term_num ="61">4</car> 
+  <car  term_num ="60">1</car> 
+  <car  term_num ="59">5</car> 
+  <car  term_num ="58">8</car> 
+  <car  term_num ="57">9</car> 
+  <car  term_num ="56">5</car> 
+  <car  term_num ="55">10</car> 
+  <car  term_num ="54">7</car> 
+  <car  term_num ="53">5</car> 
+  <car  term_num ="52">3</car> 
+  <car  term_num ="51">5</car> 
+  <car  term_num ="50">7</car> 
+  <car  term_num ="49">10</car> 
+  <car  term_num ="48">2</car> 
+  <car  term_num ="47">6</car> 
+  <car  term_num ="46">2</car> 
+  <car  term_num ="45">9</car> 
+  <car  term_num ="44">8</car> 
+  <car  term_num ="43">10</car> 
+  <car  term_num ="42">2</car> 
+  <car  term_num ="41">3</car> 
+  <car  term_num ="40">9</car> 
+  <car  term_num ="39">7</car> 
+  <car  term_num ="38">9</car> 
+  <car  term_num ="37">3</car> 
+  <car  term_num ="36">3</car> 
+  <car  term_num ="35">6</car> 
+  <car  term_num ="34">5</car> 
+  <car  term_num ="33">8</car> 
+  <car  term_num ="32">8</car> 
+  <car  term_num ="31">1</car> 
+  <car  term_num ="30">4</car> 
+  <car  term_num ="29">10</car> 
+  <car  term_num ="28">8</car> 
+  <car  term_num ="27">2</car> 
+  <car  term_num ="26">9</car> 
+  <lb ch ="10" zk ="24" wk ="0" /> 
+  <lb ch ="9" zk ="23" wk ="6" /> 
+  <lb ch ="2" zk ="22" wk ="15" /> 
+  <lb ch ="6" zk ="20" wk ="1" /> 
+  <lb ch ="7" zk ="19" wk ="9" /> 
+  <lb ch ="3" zk ="18" wk ="11" /> 
+  <lb ch ="8" zk ="16" wk ="5" /> 
+  <lb ch ="4" zk ="15" wk ="2" /> 
+  <lb ch ="5" zk ="13" wk ="4" /> 
+  <lb ch ="1" zk ="8" wk ="3" /> 
+</cars>
+<cars  dNum ="大 93" xNum ="小 85" danNum ="单 84" sNum ="双 94">
+  <car  term_num ="64">4</car> 
+  <car  term_num ="63">8</car> 
+  <car  term_num ="62">10</car> 
+  <car  term_num ="61">8</car> 
+  <car  term_num ="60">6</car> 
+  <car  term_num ="59">9</car> 
+  <car  term_num ="58">9</car> 
+  <car  term_num ="57">7</car> 
+  <car  term_num ="56">8</car> 
+  <car  term_num ="55">8</car> 
+  <car  term_num ="54">10</car> 
+  <car  term_num ="53">8</car> 
+  <car  term_num ="52">5</car> 
+  <car  term_num ="51">10</car> 
+  <car  term_num ="50">6</car> 
+  <car  term_num ="49">9</car> 
+  <car  term_num ="48">5</car> 
+  <car  term_num ="47">8</car> 
+  <car  term_num ="46">4</car> 
+  <car  term_num ="45">2</car> 
+  <car  term_num ="44">3</car> 
+  <car  term_num ="43">6</car> 
+  <car  term_num ="42">5</car> 
+  <car  term_num ="41">9</car> 
+  <car  term_num ="40">5</car> 
+  <car  term_num ="39">10</car> 
+  <car  term_num ="38">5</car> 
+  <car  term_num ="37">2</car> 
+  <car  term_num ="36">1</car> 
+  <car  term_num ="35">9</car> 
+  <car  term_num ="34">6</car> 
+  <car  term_num ="33">2</car> 
+  <car  term_num ="32">7</car> 
+  <car  term_num ="31">6</car> 
+  <car  term_num ="30">7</car> 
+  <car  term_num ="29">8</car> 
+  <car  term_num ="28">6</car> 
+  <car  term_num ="27">9</car> 
+  <car  term_num ="26">3</car> 
+  <lb ch ="5" zk ="25" wk ="11" /> 
+  <lb ch ="8" zk ="23" wk ="0" /> 
+  <lb ch ="2" zk ="22" wk ="18" /> 
+  <lb ch ="9" zk ="21" wk ="4" /> 
+  <lb ch ="10" zk ="18" wk ="1" /> 
+  <lb ch ="6" zk ="18" wk ="3" /> 
+  <lb ch ="3" zk ="14" wk ="19" /> 
+  <lb ch ="7" zk ="13" wk ="6" /> 
+  <lb ch ="4" zk ="13" wk ="17" /> 
+  <lb ch ="1" zk ="11" wk ="27" /> 
+</cars>
+<cars  dNum ="大 92" xNum ="小 86" danNum ="单 93" sNum ="双 85">
+  <car  term_num ="64">8</car> 
+  <car  term_num ="63">5</car> 
+  <car  term_num ="62">3</car> 
+  <car  term_num ="61">6</car> 
+  <car  term_num ="60">7</car> 
+  <car  term_num ="59">3</car> 
+  <car  term_num ="58">7</car> 
+  <car  term_num ="57">10</car> 
+  <car  term_num ="56">10</car> 
+  <car  term_num ="55">9</car> 
+  <car  term_num ="54">9</car> 
+  <car  term_num ="53">9</car> 
+  <car  term_num ="52">6</car> 
+  <car  term_num ="51">8</car> 
+  <car  term_num ="50">3</car> 
+  <car  term_num ="49">4</car> 
+  <car  term_num ="48">6</car> 
+  <car  term_num ="47">1</car> 
+  <car  term_num ="46">8</car> 
+  <car  term_num ="45">7</car> 
+  <car  term_num ="44">1</car> 
+  <car  term_num ="43">5</car> 
+  <car  term_num ="42">3</car> 
+  <car  term_num ="41">5</car> 
+  <car  term_num ="40">2</car> 
+  <car  term_num ="39">5</car> 
+  <car  term_num ="38">10</car> 
+  <car  term_num ="37">9</car> 
+  <car  term_num ="36">4</car> 
+  <car  term_num ="35">1</car> 
+  <car  term_num ="34">7</car> 
+  <car  term_num ="33">1</car> 
+  <car  term_num ="32">9</car> 
+  <car  term_num ="31">8</car> 
+  <car  term_num ="30">1</car> 
+  <car  term_num ="29">2</car> 
+  <car  term_num ="28">5</car> 
+  <car  term_num ="27">7</car> 
+  <car  term_num ="26">6</car> 
+  <lb ch ="8" zk ="23" wk ="12" /> 
+  <lb ch ="9" zk ="22" wk ="8" /> 
+  <lb ch ="7" zk ="20" wk ="3" /> 
+  <lb ch ="4" zk ="19" wk ="14" /> 
+  <lb ch ="1" zk ="18" wk ="16" /> 
+  <lb ch ="5" zk ="18" wk ="0" /> 
+  <lb ch ="2" zk ="16" wk ="23" /> 
+  <lb ch ="6" zk ="15" wk ="2" /> 
+  <lb ch ="3" zk ="15" wk ="1" /> 
+  <lb ch ="10" zk ="12" wk ="6" /> 
+</cars>
+<cars  dNum ="大 81" xNum ="小 97" danNum ="单 102" sNum ="双 76">
+  <car  term_num ="64">6</car> 
+  <car  term_num ="63">4</car> 
+  <car  term_num ="62">1</car> 
+  <car  term_num ="61">5</car> 
+  <car  term_num ="60">10</car> 
+  <car  term_num ="59">4</car> 
+  <car  term_num ="58">3</car> 
+  <car  term_num ="57">8</car> 
+  <car  term_num ="56">9</car> 
+  <car  term_num ="55">5</car> 
+  <car  term_num ="54">5</car> 
+  <car  term_num ="53">6</car> 
+  <car  term_num ="52">1</car> 
+  <car  term_num ="51">6</car> 
+  <car  term_num ="50">5</car> 
+  <car  term_num ="49">1</car> 
+  <car  term_num ="48">4</car> 
+  <car  term_num ="47">3</car> 
+  <car  term_num ="46">3</car> 
+  <car  term_num ="45">10</car> 
+  <car  term_num ="44">5</car> 
+  <car  term_num ="43">2</car> 
+  <car  term_num ="42">6</car> 
+  <car  term_num ="41">8</car> 
+  <car  term_num ="40">6</car> 
+  <car  term_num ="39">2</car> 
+  <car  term_num ="38">2</car> 
+  <car  term_num ="37">1</car> 
+  <car  term_num ="36">9</car> 
+  <car  term_num ="35">4</car> 
+  <car  term_num ="34">9</car> 
+  <car  term_num ="33">9</car> 
+  <car  term_num ="32">2</car> 
+  <car  term_num ="31">3</car> 
+  <car  term_num ="30">3</car> 
+  <car  term_num ="29">6</car> 
+  <car  term_num ="28">4</car> 
+  <car  term_num ="27">3</car> 
+  <car  term_num ="26">7</car> 
+  <lb ch ="1" zk ="27" wk ="1" /> 
+  <lb ch ="3" zk ="23" wk ="5" /> 
+  <lb ch ="9" zk ="19" wk ="7" /> 
+  <lb ch ="7" zk ="18" wk ="37" /> 
+  <lb ch ="10" zk ="17" wk ="3" /> 
+  <lb ch ="4" zk ="16" wk ="0" /> 
+  <lb ch ="2" zk ="16" wk ="20" /> 
+  <lb ch ="6" zk ="16" wk ="10" /> 
+  <lb ch ="5" zk ="15" wk ="2" /> 
+  <lb ch ="8" zk ="11" wk ="6" /> 
+</cars>
+<cars  dNum ="大 93" xNum ="小 85" danNum ="单 90" sNum ="双 88">
+  <car  term_num ="64">3</car> 
+  <car  term_num ="63">3</car> 
+  <car  term_num ="62">9</car> 
+  <car  term_num ="61">3</car> 
+  <car  term_num ="60">5</car> 
+  <car  term_num ="59">6</car> 
+  <car  term_num ="58">6</car> 
+  <car  term_num ="57">5</car> 
+  <car  term_num ="56">4</car> 
+  <car  term_num ="55">4</car> 
+  <car  term_num ="54">8</car> 
+  <car  term_num ="53">3</car> 
+  <car  term_num ="52">7</car> 
+  <car  term_num ="51">3</car> 
+  <car  term_num ="50">9</car> 
+  <car  term_num ="49">5</car> 
+  <car  term_num ="48">7</car> 
+  <car  term_num ="47">4</car> 
+  <car  term_num ="46">6</car> 
+  <car  term_num ="45">6</car> 
+  <car  term_num ="44">7</car> 
+  <car  term_num ="43">1</car> 
+  <car  term_num ="42">9</car> 
+  <car  term_num ="41">7</car> 
+  <car  term_num ="40">7</car> 
+  <car  term_num ="39">6</car> 
+  <car  term_num ="38">1</car> 
+  <car  term_num ="37">7</car> 
+  <car  term_num ="36">10</car> 
+  <car  term_num ="35">8</car> 
+  <car  term_num ="34">1</car> 
+  <car  term_num ="33">10</car> 
+  <car  term_num ="32">4</car> 
+  <car  term_num ="31">10</car> 
+  <car  term_num ="30">9</car> 
+  <car  term_num ="29">4</car> 
+  <car  term_num ="28">9</car> 
+  <car  term_num ="27">8</car> 
+  <car  term_num ="26">2</car> 
+  <lb ch ="3" zk ="23" wk ="0" /> 
+  <lb ch ="4" zk ="23" wk ="7" /> 
+  <lb ch ="7" zk ="23" wk ="11" /> 
+  <lb ch ="10" zk ="18" wk ="27" /> 
+  <lb ch ="8" zk ="18" wk ="9" /> 
+  <lb ch ="6" zk ="18" wk ="4" /> 
+  <lb ch ="9" zk ="16" wk ="1" /> 
+  <lb ch ="1" zk ="16" wk ="20" /> 
+  <lb ch ="5" zk ="12" wk ="3" /> 
+  <lb ch ="2" zk ="11" wk ="37" /> 
+</cars>
+<cars  dNum ="大 86" xNum ="小 92" danNum ="单 101" sNum ="双 77">
+  <car  term_num ="64">1</car> 
+  <car  term_num ="63">6</car> 
+  <car  term_num ="62">7</car> 
+  <car  term_num ="61">9</car> 
+  <car  term_num ="60">9</car> 
+  <car  term_num ="59">1</car> 
+  <car  term_num ="58">2</car> 
+  <car  term_num ="57">6</car> 
+  <car  term_num ="56">2</car> 
+  <car  term_num ="55">1</car> 
+  <car  term_num ="54">3</car> 
+  <car  term_num ="53">2</car> 
+  <car  term_num ="52">2</car> 
+  <car  term_num ="51">7</car> 
+  <car  term_num ="50">2</car> 
+  <car  term_num ="49">6</car> 
+  <car  term_num ="48">3</car> 
+  <car  term_num ="47">5</car> 
+  <car  term_num ="46">7</car> 
+  <car  term_num ="45">4</car> 
+  <car  term_num ="44">2</car> 
+  <car  term_num ="43">7</car> 
+  <car  term_num ="42">10</car> 
+  <car  term_num ="41">10</car> 
+  <car  term_num ="40">1</car> 
+  <car  term_num ="39">3</car> 
+  <car  term_num ="38">4</car> 
+  <car  term_num ="37">6</car> 
+  <car  term_num ="36">6</car> 
+  <car  term_num ="35">3</car> 
+  <car  term_num ="34">3</car> 
+  <car  term_num ="33">7</car> 
+  <car  term_num ="32">5</car> 
+  <car  term_num ="31">9</car> 
+  <car  term_num ="30">10</car> 
+  <car  term_num ="29">1</car> 
+  <car  term_num ="28">7</car> 
+  <car  term_num ="27">4</car> 
+  <car  term_num ="26">8</car> 
+  <lb ch ="1" zk ="22" wk ="4" /> 
+  <lb ch ="9" zk ="22" wk ="2" /> 
+  <lb ch ="6" zk ="21" wk ="0" /> 
+  <lb ch ="3" zk ="21" wk ="9" /> 
+  <lb ch ="5" zk ="19" wk ="16" /> 
+  <lb ch ="7" zk ="17" wk ="1" /> 
+  <lb ch ="4" zk ="15" wk ="18" /> 
+  <lb ch ="8" zk ="15" wk ="37" /> 
+  <lb ch ="2" zk ="15" wk ="5" /> 
+  <lb ch ="10" zk ="11" wk ="21" /> 
+</cars>
+<cars  dNum ="大 89" xNum ="小 89" danNum ="单 87" sNum ="双 91">
+  <car  term_num ="64">7</car> 
+  <car  term_num ="63">1</car> 
+  <car  term_num ="62">8</car> 
+  <car  term_num ="61">10</car> 
+  <car  term_num ="60">8</car> 
+  <car  term_num ="59">8</car> 
+  <car  term_num ="58">4</car> 
+  <car  term_num ="57">1</car> 
+  <car  term_num ="56">7</car> 
+  <car  term_num ="55">2</car> 
+  <car  term_num ="54">2</car> 
+  <car  term_num ="53">7</car> 
+  <car  term_num ="52">4</car> 
+  <car  term_num ="51">4</car> 
+  <car  term_num ="50">4</car> 
+  <car  term_num ="49">8</car> 
+  <car  term_num ="48">9</car> 
+  <car  term_num ="47">7</car> 
+  <car  term_num ="46">10</car> 
+  <car  term_num ="45">3</car> 
+  <car  term_num ="44">10</car> 
+  <car  term_num ="43">8</car> 
+  <car  term_num ="42">7</car> 
+  <car  term_num ="41">6</car> 
+  <car  term_num ="40">3</car> 
+  <car  term_num ="39">1</car> 
+  <car  term_num ="38">3</car> 
+  <car  term_num ="37">5</car> 
+  <car  term_num ="36">7</car> 
+  <car  term_num ="35">7</car> 
+  <car  term_num ="34">8</car> 
+  <car  term_num ="33">3</car> 
+  <car  term_num ="32">3</car> 
+  <car  term_num ="31">5</car> 
+  <car  term_num ="30">2</car> 
+  <car  term_num ="29">5</car> 
+  <car  term_num ="28">1</car> 
+  <car  term_num ="27">10</car> 
+  <car  term_num ="26">1</car> 
+  <lb ch ="8" zk ="26" wk ="1" /> 
+  <lb ch ="1" zk ="22" wk ="0" /> 
+  <lb ch ="10" zk ="19" wk ="2" /> 
+  <lb ch ="5" zk ="18" wk ="26" /> 
+  <lb ch ="4" zk ="17" wk ="5" /> 
+  <lb ch ="3" zk ="17" wk ="18" /> 
+  <lb ch ="7" zk ="17" wk ="7" /> 
+  <lb ch ="2" zk ="15" wk ="8" /> 
+  <lb ch ="6" zk ="14" wk ="22" /> 
+  <lb ch ="9" zk ="13" wk ="15" /> 
+</cars>
+<cars  dNum ="大 79" xNum ="小 99" danNum ="单 91" sNum ="双 87">
+  <car  term_num ="64">10</car> 
+  <car  term_num ="63">7</car> 
+  <car  term_num ="62">4</car> 
+  <car  term_num ="61">1</car> 
+  <car  term_num ="60">2</car> 
+  <car  term_num ="59">2</car> 
+  <car  term_num ="58">5</car> 
+  <car  term_num ="57">3</car> 
+  <car  term_num ="56">1</car> 
+  <car  term_num ="55">3</car> 
+  <car  term_num ="54">4</car> 
+  <car  term_num ="53">10</car> 
+  <car  term_num ="52">10</car> 
+  <car  term_num ="51">2</car> 
+  <car  term_num ="50">1</car> 
+  <car  term_num ="49">7</car> 
+  <car  term_num ="48">1</car> 
+  <car  term_num ="47">2</car> 
+  <car  term_num ="46">5</car> 
+  <car  term_num ="45">8</car> 
+  <car  term_num ="44">9</car> 
+  <car  term_num ="43">9</car> 
+  <car  term_num ="42">1</car> 
+  <car  term_num ="41">4</car> 
+  <car  term_num ="40">8</car> 
+  <car  term_num ="39">8</car> 
+  <car  term_num ="38">6</car> 
+  <car  term_num ="37">10</car> 
+  <car  term_num ="36">5</car> 
+  <car  term_num ="35">10</car> 
+  <car  term_num ="34">2</car> 
+  <car  term_num ="33">5</car> 
+  <car  term_num ="32">6</car> 
+  <car  term_num ="31">7</car> 
+  <car  term_num ="30">8</car> 
+  <car  term_num ="29">9</car> 
+  <car  term_num ="28">3</car> 
+  <car  term_num ="27">5</car> 
+  <car  term_num ="26">10</car> 
+  <lb ch ="5" zk ="28" wk ="5" /> 
+  <lb ch ="2" zk ="22" wk ="3" /> 
+  <lb ch ="7" zk ="20" wk ="0" /> 
+  <lb ch ="4" zk ="19" wk ="1" /> 
+  <lb ch ="10" zk ="17" wk ="10" /> 
+  <lb ch ="6" zk ="16" wk ="25" /> 
+  <lb ch ="1" zk ="16" wk ="2" /> 
+  <lb ch ="3" zk ="14" wk ="6" /> 
+  <lb ch ="8" zk ="13" wk ="18" /> 
+  <lb ch ="9" zk ="13" wk ="19" /> 
+</cars>
+</list>

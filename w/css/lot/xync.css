@@ -1,0 +1,176 @@
+.lot-nums {
+    border: solid 1px #cccccc;
+    padding-top: 5px;
+    padding-left: 5px;
+    clear: both;
+    width: 338px;
+    background-color: #fff;
+    height: 32px;
+}
+
+    .lot-nums span {
+        background: url("../../images/lucky_ball.png") no-repeat;
+        width: 32px;
+        height: 32px;
+        float: left;
+        padding-right: 10px;
+    }
+
+.nums {
+    width: 480px;
+}
+
+    .nums i {
+        background: url("../../images/lucky_ball.png") no-repeat;
+        width: 32px;
+        height: 32px;
+        float: left;
+        margin-left: 24px;
+    }
+
+.lot-nums .no1,
+.lot-table .lot-no1 {
+    background-position: 0px 0px;
+}
+
+.lot-nums .no2,
+.lot-table .lot-no2 {
+    background-position: 0px -34px;
+}
+
+.lot-nums .no3,
+.lot-table .lot-no3 {
+    background-position: 0px -66px;
+}
+
+.lot-nums .no4,
+.lot-table .lot-no4 {
+    background-position: 0px -99px;
+}
+
+.lot-nums .no5,
+.lot-table .lot-no5 {
+    background-position: 0px -134px;
+}
+
+.lot-nums .no6,
+.lot-table .lot-no6 {
+    background-position: 0px -165px;
+}
+
+.lot-nums .no7,
+.lot-table .lot-no7 {
+    background-position: 0px -198px;
+}
+
+.lot-nums .no8,
+.lot-table .lot-no8 {
+    background-position: 0px -234px;
+}
+
+.lot-nums .no9,
+.lot-table .lot-no9 {
+    background-position: 0px -264px;
+}
+
+.lot-nums .no10,
+.lot-table .lot-no10 {
+    background-position: 0px -296px;
+}
+
+.lot-nums .no11,
+.lot-table .lot-no11 {
+    background-position: 0px -331px;
+}
+
+.lot-nums .no12,
+.lot-table .lot-no12 {
+    background-position: 0px -365px;
+}
+
+.lot-nums .no13,
+.lot-table .lot-no13 {
+    background-position: 0px -396px;
+}
+
+.lot-nums .no14,
+.lot-table .lot-no14 {
+    background-position: 0px -429px;
+}
+
+.lot-nums .no15,
+.lot-table .lot-no15 {
+    background-position: 0px -462px;
+}
+
+.lot-nums .no16,
+.lot-table .lot-no16 {
+    background-position: 0px -494px;
+}
+
+.lot-nums .no17,
+.lot-table .lot-no17 {
+    background-position: 0px -529px;
+}
+
+.lot-nums .no18,
+.lot-table .lot-no18 {
+    background-position: 0px -561px;
+}
+
+.lot-nums .no19,
+.lot-table .lot-no19 {
+    background-position: 0px -594px;
+}
+
+.lot-nums .no20,
+.lot-table .lot-no20 {
+    background-position: 0px -627px;
+}
+
+.wd-65 {
+    width: 65px;
+}
+
+.lot-table .ptable {
+    width: 60%;
+    border: none;
+    margin: 0 auto;
+}
+
+    .lot-table .ptable .td1 {
+        border: none;
+        width: 40%;
+        text-align: center;
+    }
+
+    .lot-table .ptable .td2 {
+        border: none;
+        text-align: right;
+    }
+
+.lot-table .betgame-title {
+    text-align: left;
+    background-color: #F0F0F0;
+    padding-left: 13px;
+}
+
+.lot-table .betgame-td2 {
+    height: 21px;
+    background-color: #F0F0F0;
+    border-top: none;
+}
+
+.lot-table .betgame-td3 {
+    width: 174px;
+    height: 29px;
+    line-height: 24px;
+    padding-left: 10px;
+    text-align: left;
+}
+.lot-award .warnTime{ float:right;}
+.lot-award .currentAward{ width:512px;}
+.lot-award .currentAward .title{ height:24px; line-height:24px;}
+.lot-award .currentAward .period,.lot-award .currentAward .period-info{ line-height:24px;}
+.lot-nums{ width:500px; height:40px; padding:5px 0 5px 10px;}
+.lot-nums span{ margin-top:3px;}

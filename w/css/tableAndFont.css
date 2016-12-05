@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+/*********************************************************************************************************************************** 
+ * CSS Document 
+ * 字体颜色css
+ * 时间日期：2014年8月30日
+ * 代码负责人：nickly
+************************************************************************************************************************************/
+.greenCl{
+	color:#21961c;
+}
+.blackColor{
+	color:#111;
+	font-weight:bold;
+}
+.redColor{
+	color:#c3271d;
+}
+.web_topNav ul li.hover span.web_topNav_font{
+	color:#ed1c24;
+	font-weight:bold;
+}
+.web_ball01s .left li a{
+	color:#535353;
+	text-decoration:none;
+}
+.web_ball01s .left li a:hover{
+	color:#ed1c24;
+	text-decoration:underline;
+}
+.web_ball01s .left li.hover a{
+	color:#ed1c24;
+	font-weight:bold;
+	text-decoration:none;
+}
+.web_ball01s .left li.hover a:hover{
+	color:#ed1c24;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+
+/*********************************************************************************************************************************** 
+ * CSS Document 
+ * 表格背景颜色css
+ * 时间日期：2014年8月30日
+ * 代码负责人：nickly
+************************************************************************************************************************************/
+.dateLineTable table .blue1{
+	background:#f2f2f2;
+	height:64px;
+	font-size:14px;
+}
+.dateLineTable table .blue{
+	background:#f2f2f2;
+	height:35px;
+}
+.dateLineTable table .blue3{
+	background:#f2f2f2;
+	height:55px;
+}
+.dateLineTable table .blue4{
+	background:#f2f2f2;
+	height:27px;
+}
+.dateLineTable table .huise{
+	background:#f9f9f9;
+	height:27px;
+}
+.dateLineTable table .huise2{
+	background:#f9f9f9;
+	height:27px;
+}
+.dateLineTable table .white{
+	background:#fff;
+	height:27px;
+}
+.dateLineTable table .white2{
+	background:#fff;
+	height:27px;
+}
+.dateLineTable table .white3{
+	background:#fff;
+	height:27px;
+}
+.dateLineTable table .white4{
+	background:#fff;
+	height:27px;
+}
+.dateLineTable table .huiWhite{
+	background:#f9f9f9;
+	height:27px;
+}
+.dateLineTable table .huiWhite2{
+	background:#e2ebef;
+	height:27px;
+}
+.dateLineTable table .huiWhite3{
+	background:#e2ebef;
+	height:27px;
+}
+.dateLineTable table .pinkWhite{
+	background:#eedfd5;
+	height:27px;
+}
+.dateLineTable table .pinkWhite2{
+	background:#eedfd5;
+	height:27px;
+}
+.dateLineTable table .pinkWhite3{
+	background:#eedfd5;
+	height:27px;
+}
+.dateLineTable table .pinkWhite4{
+	background:#ffffee;
+	height:27px;
+}
+.dateLineTable table .pinkWhite5{
+	background:#e2ebef;
+	height:27px;
+}
+
+.dateLineTable table .greenWhite{
+	background:#d5deca;
+	height:27px;
+}
+
+.dateLineTable table .greenWhite2{
+	background:#d5deca;
+	height:27px;
+}
+.dateLineTable table .greenWhite3{
+	background:#f5ffec;
+	height:27px;
+}
+.dateLineTable table .bline {
+}
+.huiseFont{
+	color:#999 !important;
+}
+.shenblue{
+	background:#588dc8;
+	color:#FFF;
+}
+.shenblue2{
+	background:#61b1da;
+	color:#FFF;
+}
+.shenred2{
+	background:#e34234;
+	color:#FFF;
+}
+.shenred3{
+	background:#e6002d;
+	color:#FFF;
+}
+.shenred4{
+    background:url("../images/ballks3.png") no-repeat center #e2ebef;
+	color:#FFF;
+}
+.greenBg{
+	background:#56b07c;
+	color:#FFF;
+}
+.greenBg2{
+	background:#44a16b;
+	color:#FFF;
+}
+.greenBg3{
+	background:#66cc00;
+	color:#FFF;
+}
+.orangeWhite1{
+	background:#ff9900;
+	color:#FFF;
+}
+.yellowBg{
+	background:#e3940b;
+	color:#FFF;
+}

@@ -1,0 +1,1278 @@
+@import "base.css";
+
+body {
+    background-color: #F4F4F4;
+}
+
+.fl  {
+	float: left;}
+/*菜单*/
+.body-content {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: left;
+    background-color: #F4F4F4;
+    margin-top: 20px;
+}
+/*会员资料*/
+#member-info {
+    float: left;
+    width: 198px;
+    background-color: #fff;
+    border: solid 1px #D3D2D2;
+    text-align: left;
+}
+
+    #member-info .base-info {
+        height: 155px;
+        padding: 20px 25px;
+    }
+
+        #member-info .base-info .member-head {
+            padding-left: 2px;
+        }
+
+            #member-info .base-info .member-head b {
+                margin-top: 10px;
+                display: block;
+                text-align: center;
+            }
+
+        #member-info .base-info img {
+            border: solid 1px #D3D2D2;
+            width: 140px;
+            height: 140px;
+        }
+
+    #member-info .coin-info {
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+
+        #member-info .coin-info span {
+            margin-right: 5px;
+        }
+
+        #member-info .coin-info .yellow {
+            color: #e64d25;
+        }
+
+    #member-info .update-info .info,
+    #member-info .update-info .password {
+        background: url("../images/home-button.png") no-repeat;
+        float:left;
+        clear:left;
+    }
+
+.update-info a{
+    display: block;
+    float:left;
+   
+}
+.update-info i{
+    display: block;
+    float:left;
+    font-style:normal;
+    padding:0 12px 0 12px;
+}
+
+    #member-info .update-info .info, #member-info .update-info .password {
+        width: 68px;
+        text-align: center;
+        color: #474747;
+        height: 22px;
+        display: block;
+        float: left;
+        line-height: 22px;
+    }
+
+    #member-info .update-info .password {
+        float: right;
+    }
+
+    #member-info ul {
+        height: 400px;
+    }
+
+        #member-info ul li {
+            width: 100%;
+            height: 40px;
+            border-top: dashed 1px #D3D2D2;
+        }
+
+            #member-info ul li a {
+                display: block;
+                margin-left: 15px;
+                padding-left: 35px;
+                line-height: 44px;
+            }
+
+                #member-info ul li a:hover,
+                #member-info ul li .cur {
+                    color: #e64d25;
+                    font-weight: bold;
+                }
+
+            #member-info ul li .my-csj {
+                background: url("../images/home-home.png") 7px 11px no-repeat;
+            }
+
+            #member-info ul li .my-info {
+                background: url("../images/home-info.png") 7px 11px no-repeat;
+            }
+
+            #member-info ul li .my-extend {
+                background: url("../images/home-my.png") 7px 11px no-repeat;
+            }
+
+            #member-info ul li .task {
+                background: url("../images/home-task.png") 7px 11px no-repeat;
+            }
+
+            #member-info ul li .system-message {
+                background: url("../images/home-message2.png") 7px 13px no-repeat;
+            }
+
+            #member-info ul li ul {
+                height: 150px;
+                margin-top: -10px;
+            }
+
+                #member-info ul li ul li {
+                    height: 30px;
+                    border-top: 0px;
+                }
+/*右侧*/
+#member-active {
+    float: right;
+    width: 790px;
+}
+
+    #member-active .ad-cont {
+        width: 790px;
+        height: 255px;
+    }
+
+        #member-active .ad-cont img {
+            width: 790px;
+            height: 255px;
+        }
+/*常用操作*/
+.use-operate {
+    margin: 20px 0px;
+}
+
+    .use-operate h4, .recommend-browse h4 {
+        display: block;
+        height: 20px;
+        font-size: 14px;
+        color: #2a292a;
+        border-bottom: solid 1px #2a292a;
+        text-align: left;
+    }
+
+    .use-operate .info {
+        height: 200px;
+    }
+
+        .use-operate .info dl {
+            width: 200px;
+            height: 75px;
+            padding-left: 85px;
+            float: left;
+            margin-top: 30px;
+        }
+
+        .use-operate .info .dl1 {
+            margin-left: 60px;
+            background: url("../images/home-update-info.png") no-repeat;
+        }
+
+        .use-operate .info .dl1-cur {
+            background: url("../images/home-update-info-cur.png") no-repeat;
+        }
+
+        .use-operate .info .dl2 {
+            margin-left: 60px;
+            background: url("../images/home-update-password.png") no-repeat;
+        }
+
+        .use-operate .info .dl2-cur {
+            background: url("../images/home-update-password-cur.png") no-repeat;
+        }
+
+        .use-operate .info .dl3 {
+            margin-left: 60px;
+            background: url("../images/home-update-mail.png") no-repeat;
+        }
+
+        .use-operate .info .dl3-cur {
+            background: url("../404.html") no-repeat;
+        }
+
+        .use-operate .info .dl4 {
+            margin-left: 60px;
+            background: url("../images/home-update-phone.png") no-repeat;
+        }
+
+        .use-operate .info .dl4-cur {
+            background: url("../images/home-update-phone-cur.png") no-repeat;
+        }
+
+        .use-operate .info dt a {
+            font-size: 14px;
+            font-weight: bold;
+            display: block;
+            color: #2a292a;
+            margin-bottom: 9px;
+        }
+
+            .use-operate .info dt a:hover {
+                color: #b30000;
+            }
+
+        .use-operate .info dd {
+            line-height: 23px;
+            color: #292929;
+            width: 200px;
+        }
+
+            .use-operate .info dd a {
+                color: #e64d25;
+            }
+
+                .use-operate .info dd a:hover {
+                    text-decoration: underline;
+                }
+/*推荐浏览*/
+.recommend-browse {
+    margin-top: 20px;
+}
+
+    .recommend-browse ul {
+        margin-top: 30px;
+    }
+
+        .recommend-browse ul li {
+            float: left;
+            margin-left: 60px;
+            margin-right: 22px;
+        }
+
+            .recommend-browse ul li a {
+                display: block;
+            }
+
+            .recommend-browse ul li b {
+                display: block;
+                margin-top: 10px;
+                text-align: center;
+            }
+/*我的网址*/
+.home-position {
+    border-bottom: solid 1px #cccccc;
+    line-height: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+    .home-position span {
+        font-size: 12px;
+    }
+
+.add-category {
+    display: block;
+    margin-bottom: 20px;
+    background: url("../images/bookmark-addsite.png") #F3F3F3 15px 10px no-repeat;
+    padding-left: 30px;
+    line-height: 32px;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    border: solid 1px #cccccc;
+    color: #666666;
+}
+
+    .add-category:hover {
+        border: solid 1px #2AA224;
+        background-color: #2AA224;
+        color: #fff;
+    }
+
+.bookmark-content {
+    width: 100%;
+}
+
+    .bookmark-content li {
+        border: solid 1px #cccccc;
+        margin-bottom: 20px;
+    }
+
+        .bookmark-content li .head {
+            height: 32px;
+            line-height: 30px;
+            width: 100%;
+            background-color: #F3F3F3;
+            border-bottom: solid 1px #cccccc;
+        }
+
+            .bookmark-content li .head .link {
+                float: left;
+                line-height: 32px;
+            }
+
+        .bookmark-content li .name {
+            background: url("../images/bookmark-title.png") 8px 7px no-repeat;
+            height: 32px;
+            line-height: 32px;
+            width: 100px;
+            margin-left: 7px;
+            padding-left: 27px;
+            float: left;
+            font-weight: bold;
+            color: #666666;
+        }
+
+        .bookmark-content li .add {
+            background: url("../images/bookmark-addsite.png") 10px 10px no-repeat;
+            height: 32px;
+            margin-left: 512px;
+            _margin-left: 500px;
+            line-height: 32px;
+            padding-left: 25px;
+            float: left;
+        }
+
+        .bookmark-content li .cont {
+            padding: 30px;
+            background-color: #fff;
+        }
+
+        .bookmark-content li .modify {
+            background: url("../images/bookmark-edit.png") 10px 9px no-repeat;
+            height: 32px;
+            margin-left: 5px;
+            padding-left: 27px;
+            line-height: 32px;
+            float: left;
+        }
+
+        .bookmark-content li .delete {
+            background: url("../images/bookmark-delete.png") 10px 8px no-repeat;
+            height: 32px;
+            margin-left: 5px;
+            padding-left: 30px;
+            line-height: 32px;
+            float: left;
+        }
+
+        .bookmark-content li .cont a {
+            padding: 5px;
+            background: url("../images/ie-logo.png") 7px no-repeat;
+            float: left;
+            width: 197px;
+            height: 35px;
+            padding-left: 38px;
+            display: block;
+            border: solid 1px #fff;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+            .bookmark-content li .cont a:hover {
+                border: solid 1px #cccccc;
+                color: #2aa224;
+                background: url("../images/ie-logo-cur.png") #F3F3F3 7px no-repeat;
+            }
+
+        .bookmark-content li .modify_url {
+            background: url("../images/bookmark-edit-site.png") no-repeat;
+            height: 10px;
+            width: 10px;
+            float: right;
+            display: none;
+        }
+
+        .bookmark-content li .delete_url {
+            margin-left: 10px;
+            margin-top: 2px;
+            background: url("../images/bookmark-delete-site.png") no-repeat;
+            height: 9px;
+            width: 10px;
+            float: right;
+            display: none;
+        }
+/*个人资料、安全中心*/
+.page-position {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    margin-top: 15px;
+    height: 115px;
+    border-bottom: solid 1px #2A2A2A;
+}
+
+    .page-position .infomation {
+        background: url("../images/home-infomation.png") no-repeat;
+        width: 80px;
+        height: 102px;
+        float: left;
+        display: block;
+    }
+
+    .page-position .infomation-cur {
+        background: url("../images/home-infomation-cur.png") no-repeat;
+        width: 80px;
+        height: 102px;
+        float: left;
+        display: block;
+    }
+
+    .page-position .safetycenter {
+        margin-left: 30px;
+        background: url("../images/home-safetycenter.png") no-repeat;
+        width: 79px;
+        height: 104px;
+        float: left;
+        display: block;
+    }
+
+    .page-position .safetycenter-cur {
+        margin-left: 30px;
+        background: url("../images/home-safetycenter-cur.png") no-repeat;
+        width: 79px;
+        height: 104px;
+        float: left;
+        display: block;
+    }
+
+.member-box {
+    margin-left: 30px;
+}
+
+    .member-box li {
+        margin-bottom: 25px;
+    }
+/*table*/
+.lot-table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+    .lot-table caption {
+    }
+
+    .lot-table .head {
+        height: 40px;
+        background-color: #ECECEC;
+    }
+
+    .lot-table td {
+        border: solid 1px #CCCCCC;
+        height: 37px;
+    }
+
+    .lot-table .head td {
+    }
+
+    .lot-table .odd {
+        background-color: #fff;
+        font-size: 13px;
+    }
+
+    .lot-table .even {
+        background-color: #F9F9F9;
+        font-size: 13px;
+    }
+
+.mysite_content a {
+    float: left;
+    display: block;
+    margin-right: 10px;
+    margin-left: 5px;
+    border: solid 1px #e1e1e1;
+    margin-bottom: 10px;
+    width: 135px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+
+    .mysite_content a div {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 0px 4px;
+    }
+
+.mysite_content .modify_url {
+    background: url("../images/bookmark-edit-site.png") no-repeat;
+    height: 10px;
+    width: 10px;
+    float: right;
+    margin-top: -45px;
+    display: none;
+}
+
+.post_site,
+.inform_site {
+    margin: -25px -30px;
+    display: none;
+}
+
+    .post_site .wrap,
+    .inform_site .wrap {
+        background-color: #e1e1e1;
+        color: #000;
+        top: 0px;
+        border: solid 1px #fff;
+        width: 550px;
+        height: 370px;
+        padding: 20px 15px;
+    }
+
+    .inform_site .wrap {
+        width: 450px;
+        height: 270px;
+    }
+
+    .post_site .head,
+    .inform_site .head {
+        border-bottom: dashed 1px #999999;
+        font-size: 16px;
+        height: 27px;
+        font-family: 微软雅黑;
+        margin-bottom: 20px;
+    }
+
+        .post_site .head div,
+        .inform_site .head div {
+            float: left;
+        }
+
+        .post_site .head .close,
+        .inform_site .head .close {
+            margin-top: 7px;
+            float: right;
+            display: block;
+            width: 8px;
+            height: 8px;
+            background: url("../images/close.png") no-repeat;
+        }
+
+            .post_site .head .close:hover,
+            .inform_site .head .close:hover {
+                background: url("../images/close_cur.png") no-repeat;
+            }
+
+    .post_site .content,
+    .inform_site .content {
+        line-height: 22px;
+    }
+
+        .post_site .content .fl {
+            float: left;
+            width: 300px;
+        }
+
+            .post_site .content .fl .tab,
+            .inform_site .content .tab {
+                width: 100%;
+            }
+
+                .post_site .content .fl .tab td,
+                .inform_site .content .tab td {
+                    padding: 5px 0px;
+                }
+
+#postcomplete .cancel {
+    display: block;
+    background-color: #3f3d3d;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    margin-left: 250px;
+}
+
+.post_site .content .fl .tab .acquire {
+    float: right;
+    display: block;
+    background-color: #3f3d3d;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.post_site .content .fl .tab .submit,
+.post_site .content .fl .tab .cancel,
+.inform_site .content .tab .cancel,
+.inform_site .content .tab .submit {
+    float: left;
+    display: block;
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+    .post_site .content .fl .tab .submit:hover,
+    .post_site .content .fl .tab .cancel:hover,
+    .post_site .content .fl .tab .acquire:hover,
+    .inform_site .content .tab .submit:hover,
+    .inform_site .content .tab .cancel:hover,
+    #postcomplete .cancel:hover {
+        background-color: #fc1919;
+    }
+
+.post_site .content .fl .tab .submit,
+.inform_site .content .tab .submit {
+    background-color: #ff7e00;
+}
+
+.post_site .content .fl .tab .cancel,
+.inform_site .content .tab .cancel {
+    background-color: #3f3d3d;
+    margin-left: 10px;
+}
+
+.post_site .content .fl .tab .site_name,
+.inform_site .content .tab .text {
+    border: solid 1px #666;
+    padding-left: 5px;
+    width: 225px;
+    height: 22px;
+}
+
+.inform_site .content #reason {
+    border: solid 1px #666;
+    width: 350px;
+    height: 80px;
+}
+
+.post_site .content .fl .tab .site_link {
+    border: solid 1px #666;
+    padding-left: 5px;
+    width: 155px;
+    float: left;
+    height: 22px;
+}
+
+.post_site .content .fr {
+    float: right;
+    border-left: dashed 1px #999999;
+    width: 220px;
+    padding-left: 15px;
+}
+
+    .post_site .content .fr b {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .post_site .content .fr a {
+        display: block;
+        background-color: #0f8306;
+        width: 120px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        margin-left: 40px;
+        color: #fff;
+        font-size: 14px;
+        font-family: 微软雅黑;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+        .post_site .content .fr a:hover {
+            background-color: #fc1919;
+        }
+
+.post_site .tag .cur {
+    background-color: #fc1919;
+}
+
+.post_site .tag a {
+    display: block;
+    background-color: #999999;
+    padding: 0px 8px;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    height: 20px;
+    _width: 80px;
+    _padding: 0px;
+    _margin-bottom: 0px;
+}
+
+    .post_site .tag a:hover {
+        background-color: #fc1919;
+    }
+/*我的帖子*/
+#mypost .table {
+    width: 773px;
+    text-align: center;
+    color: #333;
+}
+
+    #mypost .table .h_title {
+    }
+
+    #mypost .table .time {
+        width: 80px;
+        text-align: left;
+    }
+
+#mypost em {
+    color: #999;
+    font-size: 12px;
+    font-style: normal;
+    display: block;
+    font-family: Tahoma;
+    line-height: 20px;
+}
+
+#mypost .table .w_t {
+    text-align: left;
+    padding-left: 8px;
+    line-height: 20px;
+    width: 450px;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+    #mypost .table .w_t a {
+        background: url("../images/discuss_folder.png") no-repeat;
+        padding-left: 28px;
+        display: block;
+        height: 20px;
+        margin-top: 8px;
+    }
+
+#mypost .table .td_120 {
+    width: 120px;
+    text-align: left;
+}
+
+#mypost .table .checkbox {
+    float: left;
+    margin-right: 2px;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+#mypost .table td img {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+#mypost .table td .name {
+    width: 115px;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+#mypost .table td .title {
+    float: left;
+    line-height: 20px;
+}
+
+#mypost .table td {
+    height: 38px;
+    border-top: dotted 1px #e1e1e1;
+    text-align: left;
+}
+
+    #mypost .table td .post {
+        color: #369;
+        font-family: Tahoma;
+    }
+
+#mypost .table .h_title {
+    text-align: center;
+}
+
+    #mypost .table .h_title a {
+        float: left;
+    }
+
+#mypost .table .last {
+    border-bottom: dotted 1px #e1e1e1;
+}
+
+#mypost .table .odd {
+}
+
+#mypost .table .even {
+    background-color: #f9f9f9;
+}
+
+#mypost .table .head2 td {
+    height: 45px;
+    border-top: solid 1px #666666;
+    background-color: #e0e0e0;
+    color: #171717;
+}
+
+#mypost .table .subject {
+    background-color: #f7f7f7;
+    text-align: left;
+}
+
+.paginator {
+    text-align: center;
+    height: 30px;
+}
+
+    .paginator .w_58 {
+        width: 58px;
+    }
+
+a.pagelink {
+    display: block;
+    height: 28px;
+    width: 27px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px;
+    font-family: Tahoma;
+    float: left;
+    margin-right: 5px;
+    border: solid 1px #e1e1e1;
+}
+
+a.nolink {
+    display: block;
+    height: 28px;
+    width: 27px;
+    line-height: 28px;
+    text-align: center;
+    font-family: Tahoma;
+    padding: 0px;
+    color: #fff;
+    float: left;
+    margin-right: 5px;
+    background-color: #ea5d39;
+    border: solid 1px #ea5d39;
+}
+
+a.pagelink:hover {
+    background-color: #ea5d39;
+    color: #fff;
+}
+
+.lot-table .select {
+    background-color: #F9F9F9;
+    color: #b30000;
+    font-size: 14px;
+}
+
+    .lot-table .select a {
+        color: #b30000;
+        font-weight: bold;
+    }
+
+.betMode {
+    cursor: pointer;
+    float: left;
+    position: relative;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    line-height: 25px;
+    display: block;
+    border: solid 1px #ccc;
+}
+
+    .betMode:hover {
+        border: solid 1px #0089FF;
+    }
+
+    .betMode .cont, .modeList .cont {
+        height: 125px;
+    }
+
+    .betMode .pk10_cont, .modeList .pk10_cont {
+        height: 250px;
+    }
+
+    .betMode .gdkl10_cont, .modeList .gdkl10_cont {
+        height: 210px;
+    }
+
+    .betMode .rate, .betMode .cont div, .modeList .cont {
+        padding-left: 6px;
+    }
+
+    .betMode .t, .modeList .t {
+        border-bottom: solid 1px #cccccc;
+        text-align: center;
+        background-color: #F9F9F9;
+        width: 370px;
+    }
+
+        .betMode .t .span_r {
+            padding-left: 15px;
+            color: #C3271D;
+        }
+
+        .betMode .t .span_g {
+            padding-left: 15px;
+            color: green;
+        }
+
+    .betMode .period {
+        padding-left: 8px;
+    }
+
+    .betMode .rate, .betMode .cont div, .modeList .cont, .betMode .pk10_cont div, .modeList .pk10_cont,
+    .betMode .gdkl10_cont div, .modeList .gdkl10_cont {
+        padding-left: 6px;
+    }
+
+    .betMode .rate {
+        border-top: solid 1px #cccccc;
+        text-align: right;
+        background-color: #F9F9F9;
+    }
+
+    .betMode .no_padding {
+        padding-right: 0px;
+    }
+
+    .betMode .rate .r, .modeList_road .r {
+        color: #C3271D;
+    }
+
+    .betMode .rate .g, .modeList_road .g {
+        color: #008000;
+    }
+
+    .betMode .cover {
+        padding-right: 8px;
+        overflow: hidden;
+        position: absolute;
+        color: #fff;
+        height: 99px;
+    }
+
+.modeListCont {
+    width: 1000px;
+}
+
+.modeList_road {
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+    .modeList_road .headtd {
+        background-color: #eee;
+        height: 25px;
+        font-size: 13px;
+    }
+
+        .modeList_road .headtd .modeName {
+            margin-left: 10px;
+            margin-right: 20px;
+            font-weight: bold;
+            color: #0089FF;
+        }
+
+    .modeList_road .h_td {
+        background-color: #EB7A41;
+        height: 25px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .modeList_road .odd_td {
+        background-color: #eee;
+    }
+
+    .modeList_road .b {
+        color: blue;
+    }
+
+.modeList {
+    width: 250px;
+    height: 175px;
+    overflow: hidden;
+    line-height: 25px;
+    border: solid 1px #141313;
+}
+
+.pk10_modelist {
+    height: 300px;
+    width: 320px;
+}
+
+.gdkl10_modelist {
+    height: 260px;
+    width: 320px;
+}
+
+.modeList .period {
+    padding-left: 8px;
+    border-bottom: solid 1px #141313;
+    background-color: #3A3A3A;
+}
+
+.modeList .cont {
+}
+
+    .modeList .cont .result {
+        color: #C3271D;
+        margin-left: 68px;
+    }
+
+.pk10_modelist .result, .gdkl10_modelist .result {
+    color: #E22424;
+    margin-left: 68px;
+}
+
+.modeList .award {
+    padding-left: 8px;
+    background-color: #3A3A3A;
+}
+
+    .modeList .award .r {
+        color: #C3271D;
+        padding-left: 5px;
+    }
+
+    .modeList .award .g {
+        color: green;
+        padding-left: 5px;
+    }
+
+.collect {
+    background: #0089FF;
+    z-index: 1001;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    color: #fff;
+    height: 28px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.null_mode {
+    font-size: 14px;
+    font-family: 微软雅黑;
+    height: 70px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    line-height: 70px;
+}
+/*路珠table*/
+.roadmap-table-caption {
+    width: 100%;
+    color: #666;
+    text-align: left;
+    line-height: 30px;
+    border: solid 1px #CCCCCC;
+    margin-bottom: -1px;
+    height: 30px;
+    background-color: #F4F4F4;
+}
+
+    .roadmap-table-caption td {
+        width: 100%;
+        text-align: right;
+        padding-right: 5px;
+    }
+
+        .roadmap-table-caption td a {
+            float: left;
+            margin-left: 5px;
+            color: green;
+        }
+
+    .roadmap-table-caption .count {
+        color: #e84147;
+    }
+
+.roadmap-table {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .roadmap-table td {
+        border: solid 1px #CCCCCC;
+        line-height: 18px;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 14px;
+        width: 27px;
+    }
+
+    .roadmap-table .odd {
+        background-color: #F1F1F1;
+    }
+
+    .roadmap-table span {
+        color: red;
+        display: block;
+    }
+
+    .roadmap-table label {
+        display: block;
+        color: blue;
+    }
+
+    .roadmap-table p {
+        display: block;
+        color: green;
+    }
+
+p.update-info {
+    padding:0 0 0 25px;
+    width: 157px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 auto 10px;
+    background: #f5f5f5;
+    color: #777;
+    font-size: 14px;
+    border: 1px dashed #ddd;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+    p.update-info a {
+        color: #474747;
+        font-size: 12px;
+        margin: 0 2px;
+    }
+
+        p.update-info a:hover {
+            color: #222;
+            text-decoration: underline;
+        }
+
+        p.update-info a:focus {
+            outline: none;
+        }
+
+
+/*我的反馈消息 气泡*/
+.feedback {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+/*     background: url(../images/chat01.png) no-repeat; */
+    top: 4px;
+    right: 85px;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+    font-weight: bolder;
+    display: block;
+}
+
+.userCenter_right {
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+    .userCenter_right h1 {
+        padding: 10px 0 10px 0;
+        margin: 0px;
+        display: block;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+.userCenter_table td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.userCenter_table span.bigFont {
+    font-size: 14px;
+}
+
+.userCenter_table .firstBg td {
+    background: #d9d9d9;
+    padding: 0px 0 0 12px;
+}
+
+.userCenter_table td i.jt01 {
+    width: 17px;
+    height: 16px;
+    background: url("../images/userCenterJt.gif") no-repeat;
+    display: block;
+    float: left;
+}
+
+.userCenter_table td i.returnTips {
+    padding: 0 15px 0 3px;
+    background: url("../images/userCenterJt1.gif") no-repeat 42px center #ffcb66;
+    display: block;
+    float: left;
+    color: #fff;
+    font-style: normal;
+    cursor: pointer;
+    position: absolute;
+    width: 38px;
+    top: 0px;
+    left: 10px;
+}
+.userCenter_table td i.returnTips2 {
+    padding: 0 15px 0 3px;
+    background: url("../images/userCenterJt1.gif") no-repeat 42px center #ffcb66;
+    display: block;
+    float: left;
+    color: #fff;
+    font-style: normal;
+    cursor: pointer;
+    width: 38px;
+    top: 0px;
+    left: 10px;
+}
+.userCenter_table td i.hover {
+    background: url("../images/userCenterJt2.gif") no-repeat 42px center #ffcb66;
+}
+
+.userCenter_table .li_contents {
+    float: left;
+    display: block;
+    width:92%;
+     word-wrap:break-word;word-break:break-all;
+}
+
+.userCenter_table td span.returnCons {
+    float: left;
+    padding: 0 0 0 10px;
+    color: #ff2020;
+    word-wrap:break-word;word-break:break-all;
+}
+
+.userCenter_table .trBg {
+    background: #efefef;
+    border-bottom: 1px solid #e1e1e1;
+}

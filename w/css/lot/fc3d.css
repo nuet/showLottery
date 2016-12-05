@@ -1,0 +1,59 @@
+.lot-nums
+{
+    border:solid 1px #cccccc;
+    padding-top:2px;
+    padding-bottom:3px;
+    padding-left:15px;
+    clear:both;
+    width:338px;
+    background-color:#fff;
+    height:32px;
+}
+.lot-nums span {
+    font-size: 14px;
+    line-height: 17px;
+    margin:0px 8px;
+    font-family: Tahoma, '宋体', '黑体', Verdana, Geneva, sans-serif;
+}
+.nums
+{
+    width:400px;
+    text-align:left;
+    padding-left:25px;
+}
+.nums span {
+    font-size: 14px;
+    width:32px;
+    line-height: 22px;
+    display:block;
+    float:left;
+    margin:0px 4px;
+    font-family: Tahoma, '宋体', '黑体', Verdana, Geneva, sans-serif;
+}
+
+.lot-table .betgame-title {
+    text-align: left;
+    background-color: #F0F0F0;
+    padding-left: 13px;
+}
+
+.lot-table .betgame-td2 {
+    height: 21px;
+    background-color: #F0F0F0;
+    border-top: none;
+}
+
+.lot-table .betgame-td3 {
+    width: 174px;
+    height: 29px;
+    line-height: 24px;
+    padding-left: 10px;
+    text-align: left;
+}
+.open-num_kl8 span {
+  float: left;
+  font-size: 13px;
+  line-height: 25px;
+  text-align: center;
+  width: 20px;
+}

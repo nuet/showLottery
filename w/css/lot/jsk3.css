@@ -1,0 +1,98 @@
+.lot-nums {
+    border: solid 1px #cccccc;
+    padding-top: 5px;
+    padding-left: 15px;
+    clear: both;
+    width: 338px;
+    background-color: #fff;
+    height: 32px;
+}
+
+    .lot-nums span,
+    .nums i {
+        background: url("../../images/jsk3_ball2.jpg") no-repeat center center;
+        display: inline-block;
+        cursor: default;
+        width: 27px;
+        height: 27px;
+        overflow: hidden;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+.nums {
+    width: 500px;
+}
+
+.lot-nums .no1,
+.lot-table .lot-no1 {
+    background-position: 0 0px;
+}
+
+.lot-nums .no2,
+.lot-table .lot-no2 {
+    background-position: 0 -28px;
+}
+
+.lot-nums .no3,
+.lot-table .lot-no3 {
+    background-position: 0 -56px;
+}
+
+.lot-nums .no4,
+.lot-table .lot-no4 {
+    background-position: 0 -84px;
+}
+
+.lot-nums .no5,
+.lot-table .lot-no5 {
+    background-position: 0 -112px;
+}
+
+.lot-nums .no6,
+.lot-table .lot-no6 {
+    background-position: 0 -140px;
+}
+
+.wd-150 {
+    width: 150px;
+}
+
+.betgame-num div {
+    padding: 0px 6px;
+    float: left;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.lot-table .betgame-title {
+    text-align: left;
+    background-color: #F0F0F0;
+    padding-left: 13px;
+}
+
+.lot-table .betgame-td2 {
+    height: 21px;
+    background-color: #F0F0F0;
+    border-top: none;
+}
+
+.lot-table .betgame-td3 {
+    width: 174px;
+    height: 29px;
+    line-height: 24px;
+    padding-left: 10px;
+    text-align: left;
+}
+.lot-award .warnTime{ float:right;}
+.lot-award .currentAward{ width:512px;}
+.lot-award .currentAward .title{ height:24px; line-height:24px;}
+.lot-award .currentAward .period,.lot-award .currentAward .period-info{ line-height:24px;}
+.lot-nums{ width:500px; height:40px; padding:5px 0 5px 10px;}
+.lot-nums span{ width:35px; height:35px; background:url("../../images/jsk3_ball.png") no-repeat 0 0 !important; padding-right:0; margin-right:10px;}
+.lot-nums .no1{ background-position:0 0 !important;}
+.lot-nums .no2{ background-position:0 -36px !important;}
+.lot-nums .no3{ background-position:0 -72px !important;}
+.lot-nums .no4{ background-position:0 -108px !important;}
+.lot-nums .no5{ background-position:0 -144px !important;}
+.lot-nums .no6{ background-position:0 -180px !important;}

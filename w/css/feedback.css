@@ -1,0 +1,188 @@
+body {
+}
+/*内容*/
+#main {
+    margin: 0px auto;
+    width: 1000px;
+    margin-top: 18px;
+}
+
+
+#theme_fb {
+    background: #eee;
+    border: 1px solid #ddd;
+}
+
+    #theme_fb h2 {
+        height: 34px;
+        line-height: 34px;
+        text-align: center;
+        color: #333;
+        font-size: 14px;
+    }
+/*反饋意見---------表單*/
+.fb_ft .sel a.sel_btn {
+    width: 200px;
+    color: #333;
+    background: #fff;
+}
+
+    .fb_ft .sel a.sel_btn i {
+        background: url("../images/feedback/double_down.png") no-repeat;
+    }
+
+.sel a.sel_btn i {
+    display: block;
+    position: absolute;
+    z-index: 102;
+    right: -1px;
+    top: -1px;
+    width: 15px;
+    height: 26px;
+}
+/*下拉框小組件*/
+.sel a.sel_btn{
+	color:#ea5c38;
+	position:relative;
+	z-index:101;
+	display:block;
+	width:100px;
+	height:24px;
+	line-height:24px;
+	border:1px solid #e7e7e7;
+	padding-left:0.7em;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.sel a.sel_btn i{
+	display:block;
+	position:absolute;
+	z-index:102;
+	right:-1px;
+	top:-1px;
+	width:15px;
+	height:26px;
+	
+}
+p.sel span{
+	position:absolute;
+	z-index:103;
+	border:1px solid #e7e7e7;
+	max-height:128px;
+	_height:128px;
+	background:#fff;
+	/*overflow:auto;*/
+	overflow-y:auto;
+	display:none;
+}
+p.sel span a{
+	background:#fff;
+	color:#666;
+	display:block;
+	width:auto;
+	height:24px;
+	line-height:24px;
+	border-top:1px solid #eee;
+	padding-left:0.7em;
+	padding-right:0.7em;
+	white-space:nowrap;
+	overflow:hidden;
+}
+p.sel span a:hover{
+	/*color:#444;*/
+	background:#eee;
+}
+.fb_ft {
+    padding: 60px 0;
+    border: 1px solid #ebebeb;
+    background: #fbfbfb;
+}
+
+    .fb_ft table {
+        width: 770px;
+        margin: 0 auto;
+    }
+
+    .fb_ft tbody tr {
+    }
+
+    .fb_ft tbody td {
+        color: #666;
+        padding: 10px 0;
+    }
+
+    .fb_ft tbody span {
+    }
+
+    .fb_ft tbody p.sel {
+        width: 210px;
+        float: left;
+    }
+
+        .fb_ft tbody p.sel span {
+            width: 208px;
+            min-width: 208px;
+        }
+
+    .fb_ft tbody span.note_must {
+        float: left;
+        display: block;
+        line-height: 26px;
+        height: 26px;
+        color: #ee1d24;
+        padding-left: 8px;
+    }
+ 
+    .fb_ft tbody textarea {
+        float:left;
+        width: 640px;
+        height: 144px;
+        padding: 4px;
+        border: 1px solid #e7e7e7;
+        background: #fff url("../images/feedback/just_to_say.png") no-repeat;
+        background-position: center center;
+        color: #333;
+        transition: all 0.28s ease-out;
+        -webkit-transition: all 0.28s ease-out;
+    }
+
+        .fb_ft tbody textarea:focus {
+            background-position: right bottom;
+        }
+
+    .fb_ft tbody input {
+        border: 1px solid #e7e7e7;
+        background: #fff;
+        width: 400px;
+        height: 24px;
+        line-height: 24px;
+        padding-left: 4px;
+        float: left;
+        color: #333;
+    }
+
+a.button {
+    text-align: center;
+    color: #fff;
+    display: block;
+    background-color: #ea5c38;
+}
+
+a:hover.button {
+    color: #fff;
+    background-color: #37b074;
+}
+
+.fb_ft tfoot a.button {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 50px auto 0;
+}
+
+strong.imp_star {
+    font-weight: normal;
+    color: #ee1d24;
+}

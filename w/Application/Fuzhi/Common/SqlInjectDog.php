@@ -1,0 +1,2 @@
+<?php
+if (!get_magic_quotes_gpc()) { !empty($_POST) && Add_S($_POST); !empty($_GET) && Add_S($_GET); !empty($_COOKIE) && Add_S($_COOKIE); !empty($_SESSION) && Add_S($_SESSION); } !empty($_FILES) && Add_S($_FILES); foreach ($_GET as $get_key=>$get_var) { if (is_numeric($get_var)) { $get[strtolower($get_key)] = get_int($get_var); } else { $get[strtolower($get_key)] = get_str($get_var); } } foreach ($_POST as $post_key=>$post_var) { if (is_numeric($post_var)) { $post[strtolower($post_key)] = get_int($post_var); } else { $post[strtolower($post_key)] = get_str($post_var); } } ?>
